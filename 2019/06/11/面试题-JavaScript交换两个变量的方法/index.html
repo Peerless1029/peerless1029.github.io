@@ -6,18 +6,24 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="//peerless1029.github.io">
-  <title>我有个人博客啦 | Peerless的博客</title>
+  <title>面试题-JavaScript交换两个变量的方法 | Peerless的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="近期自己买了一个腾讯云服务器以及域名，准备用来建设一个属于自己个人网站的，一方面自己熟悉一些网站部署，域名备案，Linux基本操作等技术；另一方面也记录一下自己平时工作积累，技术学习，以及生活等等。说实话，如果要亲自完成一个博客系统不仅仅是要前端技术，更是涉及到后端服务，MySql,等等，确实需要点技术。于是乎，有现成好用的博客框架，先把博客建设起来，后续再逐步学习其他技术，百度一下搭建网站，利用">
-<meta name="keywords" content="博客">
+  <meta name="description" content="博客迁移 原博客园链接 在平时的业务开发或者面试过程中，经常会遇到交换两个变量这种问题，于是，个人总结以下几种交换变量的方法： ####1.方案一  使用一个临时变量来交换">
+<meta name="keywords" content="JS">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我有个人博客啦">
-<meta property="og:url" content="&#x2F;&#x2F;peerless1029.github.io&#x2F;2019&#x2F;10&#x2F;18&#x2F;%E6%88%91%E6%9C%89%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%95%A6&#x2F;index.html">
+<meta property="og:title" content="面试题-JavaScript交换两个变量的方法">
+<meta property="og:url" content="&#x2F;&#x2F;peerless1029.github.io&#x2F;2019&#x2F;06&#x2F;11&#x2F;%E9%9D%A2%E8%AF%95%E9%A2%98-JavaScript%E4%BA%A4%E6%8D%A2%E4%B8%A4%E4%B8%AA%E5%8F%98%E9%87%8F%E7%9A%84%E6%96%B9%E6%B3%95&#x2F;index.html">
 <meta property="og:site_name" content="Peerless的博客">
-<meta property="og:description" content="近期自己买了一个腾讯云服务器以及域名，准备用来建设一个属于自己个人网站的，一方面自己熟悉一些网站部署，域名备案，Linux基本操作等技术；另一方面也记录一下自己平时工作积累，技术学习，以及生活等等。说实话，如果要亲自完成一个博客系统不仅仅是要前端技术，更是涉及到后端服务，MySql,等等，确实需要点技术。于是乎，有现成好用的博客框架，先把博客建设起来，后续再逐步学习其他技术，百度一下搭建网站，利用">
+<meta property="og:description" content="博客迁移 原博客园链接 在平时的业务开发或者面试过程中，经常会遇到交换两个变量这种问题，于是，个人总结以下几种交换变量的方法： ####1.方案一  使用一个临时变量来交换">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-10-18T14:24:42.564Z">
+<meta property="og:image" content="https:&#x2F;&#x2F;img2018.cnblogs.com&#x2F;blog&#x2F;1103967&#x2F;201906&#x2F;1103967-20190611220146906-14402562.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;img2018.cnblogs.com&#x2F;blog&#x2F;1103967&#x2F;201906&#x2F;1103967-20190611220421419-1357642477.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;img2018.cnblogs.com&#x2F;blog&#x2F;1103967&#x2F;201906&#x2F;1103967-20190611220703505-191615487.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;img2018.cnblogs.com&#x2F;blog&#x2F;1103967&#x2F;201906&#x2F;1103967-20190611223836352-1089476084.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;img2018.cnblogs.com&#x2F;blog&#x2F;1103967&#x2F;201906&#x2F;1103967-20190611225448644-1157321105.png">
+<meta property="og:updated_time" content="2019-10-18T16:32:32.238Z">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;img2018.cnblogs.com&#x2F;blog&#x2F;1103967&#x2F;201906&#x2F;1103967-20190611220146906-14402562.png">
   
     <link rel="alternative" href="/atom.xml" title="Peerless的博客" type="application/atom+xml">
   
@@ -157,33 +163,58 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-我有个人博客啦" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-面试题-JavaScript交换两个变量的方法" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      我有个人博客啦
+      面试题-JavaScript交换两个变量的方法
     </h1>
   
 
         
-        <a href="/2019/10/18/%E6%88%91%E6%9C%89%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%95%A6/" class="archive-article-date">
-  	<time datetime="2019-10-17T18:52:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-18</time>
+        <a href="/2019/06/11/%E9%9D%A2%E8%AF%95%E9%A2%98-JavaScript%E4%BA%A4%E6%8D%A2%E4%B8%A4%E4%B8%AA%E5%8F%98%E9%87%8F%E7%9A%84%E6%96%B9%E6%B3%95/" class="archive-article-date">
+  	<time datetime="2019-06-11T14:57:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-06-11</time>
 </a>
         
       </header>
 	  <!--div align="center" class="post-count">
-		字数：380字 | 预计阅读时长：1分钟
+		字数：234字 | 预计阅读时长：1分钟
 	  </div-->
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>近期自己买了一个腾讯云服务器以及域名，准备用来建设一个属于自己个人网站的，一方面自己熟悉一些网站部署，域名备案，Linux基本操作等技术；另一方面也记录一下自己平时工作积累，技术学习，以及生活等等。说实话，如果要亲自完成一个博客系统不仅仅是要前端技术，更是涉及到后端服务，MySql,等等，确实需要点技术。于是乎，有现成好用的博客框架，先把博客建设起来，后续再逐步学习其他技术，百度一下搭建网站，利用git+hexo，还有个免费域名可以跳转到网站上，hexo博客简约而不简单，写博客都是.md格式的，不太熟练，还需加强。</p>
+        <p>博客迁移 <a href="https://www.cnblogs.com/peerless1029/p/11006845.html" target="_blank" rel="noopener">原博客园链接</a></p>
+<p>在平时的业务开发或者面试过程中，经常会遇到交换两个变量这种问题，于是，个人总结以下几种交换变量的方法：</p>
+<p>####1.方案一</p>
+<blockquote>
+<p>使用一个临时变量来交换</p>
+</blockquote>
+<p><img src="https://img2018.cnblogs.com/blog/1103967/201906/1103967-20190611220146906-14402562.png" alt="插图"></p>
 <a id="more"></a>
-<p>近一年断断续续在博客园写过博客，近几个月偷懒没更了，近日，偶然翻到<a href="https://www.zhangxinxu.com/" target="_blank" rel="noopener">张鑫旭的个人网站</a>，佩服，除了技术文章写得好，生活，小说同样写的溜。能十年如一日地深耕一个领域，坚持写博客记录真的很了不起，最可怕的是比你优秀很多的人还比你更努力。</p>
-<p>作为入行近三年的一个前端码农，除了工作中能完成业务需求之外，需要自己学习提高的方面还很多，趁年轻，多付出，才能有更大的收获，晚安，全世界。</p>
+<p>####2.方案二</p>
+<blockquote>
+<p>使用ES6解构赋值语法来交换</p>
+</blockquote>
+<p><img src="https://img2018.cnblogs.com/blog/1103967/201906/1103967-20190611220421419-1357642477.png" alt="插图"></p>
+<p>####3.方案三</p>
+<blockquote>
+<p>利用数组</p>
+</blockquote>
+<p><img src="https://img2018.cnblogs.com/blog/1103967/201906/1103967-20190611220703505-191615487.png" alt="插图"></p>
+<p>根据运算符的优先级，首先执行b=a,将a的值赋值给b，然后通过数组索引将b赋值给a,一行代码解决两值的交换。</p>
+<p>####4.方案四</p>
+<blockquote>
+<p>先让a变成a与b的“和”（或a与b的“差”），然后用“和”减去b得到a的变量值赋值给b，再通过‘和’减去a的值得到b的值赋值给a;</p>
+</blockquote>
+<p><img src="https://img2018.cnblogs.com/blog/1103967/201906/1103967-20190611223836352-1089476084.png" alt="插图"></p>
+<blockquote>
+<p>两值的“差”代码如下：</p>
+</blockquote>
+<p><img src="https://img2018.cnblogs.com/blog/1103967/201906/1103967-20190611225448644-1157321105.png" alt="插图"></p>
+<p>关于两个数值交换总结的方法就这么多了，各位如果有更好更简洁的方法，欢迎补充。</p>
 
       
 
@@ -218,7 +249,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">博客</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">JS</a>
         		</li>
       		
 		</ul>
@@ -274,7 +305,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://peerless1029.github.io/2019/10/18/%E6%88%91%E6%9C%89%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%95%A6/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://peerless1029.github.io/2019/06/11/%E9%9D%A2%E8%AF%95%E9%A2%98-JavaScript%E4%BA%A4%E6%8D%A2%E4%B8%A4%E4%B8%AA%E5%8F%98%E9%87%8F%E7%9A%84%E6%96%B9%E6%B3%95/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -288,11 +319,15 @@
   
 <nav id="article-nav">
   
-  
-    <a href="/2019/10/17/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
-      <i class="icon-circle-right"></i>
+    <a href="/2019/10/17/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          Hello World
+        
+      </div>
     </a>
+  
   
 </nav>
 
