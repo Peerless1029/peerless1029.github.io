@@ -8,16 +8,16 @@
   <link rel="dns-prefetch" href="//peerless1029.github.io">
   <title>ES6语法的学习与实践 | Peerless的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="博客迁移 原博客园链接 ES6是JavaScript语言的新一代标准，是ECMAScript的第六个版本，加入了很多新的功能和语法，在很多框架，如在使用Vue,React等框架的项目中一般都采用ES6语法来编写的，下面对经常用到的ES6语法做简要的介绍。 1.let,constlet和const是ES6中新增的两个关键字，用来生命变量，let和const都是块级作用域。let声明的变量只在let命">
+  <meta name="description" content="博客迁移 原博客园链接 ES6是JavaScript语言的新一代标准，是ECMAScript的第六个版本，加入了很多新的功能和语法，在很多框架，如在使用Vue,React等框架的项目中一般都采用ES6语法来编写的，下面对经常用到的ES6语法做简要的介绍。">
 <meta name="keywords" content="博客园,JS">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ES6语法的学习与实践">
 <meta property="og:url" content="&#x2F;&#x2F;peerless1029.github.io&#x2F;2018&#x2F;09&#x2F;19&#x2F;ES6%E8%AF%AD%E6%B3%95%E7%9A%84%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%AE%9E%E8%B7%B5&#x2F;index.html">
 <meta property="og:site_name" content="Peerless的博客">
-<meta property="og:description" content="博客迁移 原博客园链接 ES6是JavaScript语言的新一代标准，是ECMAScript的第六个版本，加入了很多新的功能和语法，在很多框架，如在使用Vue,React等框架的项目中一般都采用ES6语法来编写的，下面对经常用到的ES6语法做简要的介绍。 1.let,constlet和const是ES6中新增的两个关键字，用来生命变量，let和const都是块级作用域。let声明的变量只在let命">
+<meta property="og:description" content="博客迁移 原博客园链接 ES6是JavaScript语言的新一代标准，是ECMAScript的第六个版本，加入了很多新的功能和语法，在很多框架，如在使用Vue,React等框架的项目中一般都采用ES6语法来编写的，下面对经常用到的ES6语法做简要的介绍。">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https:&#x2F;&#x2F;i.loli.net&#x2F;2019&#x2F;10&#x2F;20&#x2F;uj4Ddmsf2ZMScKk.png">
-<meta property="og:updated_time" content="2019-10-20T03:08:31.559Z">
+<meta property="og:updated_time" content="2019-10-20T12:56:35.636Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https:&#x2F;&#x2F;i.loli.net&#x2F;2019&#x2F;10&#x2F;20&#x2F;uj4Ddmsf2ZMScKk.png">
   
@@ -54,7 +54,7 @@
 		  <h1 class="header-author"><a href="/">Peerless</a></h1>
 		</hgroup>
 		
-		<p class="header-subtitle">前端 学习 记录</p>
+		<p class="header-subtitle">Web前端 技术学习 生活记录</p>
 		
 
 		<nav class="header-menu">
@@ -64,19 +64,17 @@
 	        
 				<li><a href="/archives/index.html">归档</a></li>
 	        
+				<li><a href="https://www.cnblogs.com/peerless1029" target="_blank" rel="noopener">博客园</a></li>
+	        
 			</ul>
 		</nav>
 		<nav>
-			总文章数 6
+			总文章数 17
 		</nav>
 		<nav class="header-smart-menu">
     		
     			
     			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
-    			
-            
-    			
-    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友情链接</a>
     			
             
     			
@@ -89,9 +87,9 @@
 				
 					<a class="github" target="_blank" href="https://github.com/peerless1029" title="github"><i class="icon-github"></i></a>
 		        
-					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+					<a class="weixin" target="_blank" href="/assets/Peerless_weChat.jpg" title="weixin"><i class="icon-weixin"></i></a>
 		        
-					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
+					<a class="mail" target="_blank" href="mailto:172453591@qq.com" title="mail"><i class="icon-mail"></i></a>
 		        
 				<!--iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=478507889&auto=0&height=66"></iframe-->
 			</div>
@@ -116,9 +114,11 @@
 			  <h1 class="header-author js-header-author">Peerless</h1>
 			</hgroup>
 			
-			<p class="header-subtitle"><i class="icon icon-quo-left"></i>前端 学习 记录<i class="icon icon-quo-right"></i></p>
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>Web前端 技术学习 生活记录<i class="icon icon-quo-right"></i></p>
 			
 			
+			
+				
 			
 				
 			
@@ -131,20 +131,22 @@
 					
 						<a class="github" target="_blank" href="https://github.com/peerless1029" title="github"><i class="icon-github"></i></a>
 			        
-						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+						<a class="weixin" target="_blank" href="/assets/Peerless_weChat.jpg" title="weixin"><i class="icon-weixin"></i></a>
 			        
-						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
+						<a class="mail" target="_blank" href="mailto:172453591@qq.com" title="mail"><i class="icon-mail"></i></a>
 			        
 				</div>
 			</nav>
 
 			<nav class="header-menu js-header-menu">
-				<ul style="width: 50%">
+				<ul style="width: 70%">
 				
 				
-					<li style="width: 50%"><a href="/">主页</a></li>
+					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/archives/index.html">归档</a></li>
+					<li style="width: 33.333333333333336%"><a href="/archives/index.html">归档</a></li>
+		        
+					<li style="width: 33.333333333333336%"><a href="https://www.cnblogs.com/peerless1029" target="_blank" rel="noopener">博客园</a></li>
 		        
 				</ul>
 			</nav>
@@ -197,9 +199,9 @@
       
         <p>博客迁移 <a href="https://www.cnblogs.com/peerless1029/p/9678130.html" target="_blank" rel="noopener">原博客园链接</a></p>
 <p>ES6是JavaScript语言的新一代标准，是ECMAScript的第六个版本，加入了很多新的功能和语法，在很多框架，如在使用Vue,React等框架的项目中一般都采用ES6语法来编写的，下面对经常用到的ES6语法做简要的介绍。</p>
+<a id="more"></a>
 <h4 id="1-let-const"><a href="#1-let-const" class="headerlink" title="1.let,const"></a>1.let,const</h4><p>let和const是ES6中新增的两个关键字，用来生命变量，let和const都是块级作用域。let声明的变量只在let命令所在的代码块内有效。const声明一个只读变量，一旦声明，常量的值就不可更改。与var声明的变量不同，var声明的是函数作用域，且存在变量提升。例如：　</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// let示例</span></span><br><span class="line">&#123;</span><br><span class="line">  <span class="keyword">var</span> a=<span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">let</span> b=<span class="number">2</span>;</span><br><span class="line">&#125;</span><br><span class="line">a;  <span class="comment">// 1</span></span><br><span class="line">b;  <span class="comment">// ReferenceError:b is not undefined.</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// const示例</span></span><br><span class="line"><span class="keyword">const</span> c=<span class="number">3</span>;</span><br><span class="line">c=<span class="number">4</span>; <span class="comment">//  Assignment to constant variable.</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// var 示例</span></span><br><span class="line"><span class="built_in">console</span>.log(d); <span class="comment">// undefined</span></span><br><span class="line"><span class="keyword">var</span> d=<span class="number">3</span>;</span><br><span class="line"><span class="built_in">console</span>.log(d); <span class="comment">//3</span></span><br><span class="line">声明提前后浏览器执行顺序为：</span><br><span class="line"><span class="keyword">var</span> d;</span><br><span class="line"><span class="built_in">console</span>.log(d); <span class="comment">// undefined</span></span><br><span class="line">d=<span class="number">3</span>;</span><br><span class="line"><span class="built_in">console</span>.log(d); <span class="comment">// 3</span></span><br></pre></td></tr></table></figure>
-<a id="more"></a>
 <h4 id="2-箭头函数"><a href="#2-箭头函数" class="headerlink" title="2.箭头函数"></a>2.箭头函数</h4><p>ES6允许使用“箭头”（=&gt;）定义函数。这种函数创建的函数不需要函数关键字，并且还可以省略return关键字。与此同时，箭头函数内的this指向函数定义时所在的上下文对象。例如：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> foo1=<span class="function">(<span class="params">a,b</span>)=&gt;</span>a+<span class="number">1</span>;</span><br><span class="line"><span class="comment">// 等价于 </span></span><br><span class="line"><span class="keyword">var</span> foo1=<span class="function"><span class="keyword">function</span>(<span class="params">a,b</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">return</span> a+b;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 在return只有一个表达式时，使用箭头函数可以省略return和&#123;&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> name=<span class="string">'jhon'</span>;</span><br><span class="line"><span class="keyword">var</span> obj=&#123;</span><br><span class="line">  name:<span class="string">"tom"</span>,</span><br><span class="line">  sayName1:<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">      <span class="built_in">console</span>.log(<span class="keyword">this</span>.name)</span><br><span class="line">    &#125;,<span class="number">500</span>)</span><br><span class="line">  &#125;,</span><br><span class="line"> sayName2:<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    setTimeout(<span class="function"><span class="params">()</span>=&gt;</span>&#123;</span><br><span class="line">      <span class="built_in">console</span>.log(<span class="keyword">this</span>.name)</span><br><span class="line">    &#125;,<span class="number">500</span>)</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;</span><br><span class="line">obj.sayName1(); <span class="comment">// jhon</span></span><br><span class="line">obj.sayName2(); <span class="comment">// tom</span></span><br><span class="line"><span class="comment">// 第一个this值window对象，第二个方法里面指向当前的obj对象，</span></span><br></pre></td></tr></table></figure>
 <p><strong>小结：1.使用箭头函数可以简写代码量；2.可以改变this的指向，可以替代apply,call,bind一些方法。</strong></p>
@@ -236,9 +238,14 @@
                   <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
                   <div class="reward-box">
                     
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/Peerless_receive_ali_code.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
                     
                     <div class="reward-box-item">
-                      <img class="reward-img" src="/assets/head.png">
+                      <img class="reward-img" src="/assets/Peerless_receive_wx_code.jpg">
                       <span class="reward-type">微信</span>
                     </div>
                     
@@ -334,11 +341,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/06/11/%E9%9D%A2%E8%AF%95%E9%A2%98-JavaScript%E4%BA%A4%E6%8D%A2%E4%B8%A4%E4%B8%AA%E5%8F%98%E9%87%8F%E7%9A%84%E6%96%B9%E6%B3%95/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2018/10/26/React%E7%9A%84%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86%E4%B8%8E%E6%A6%82%E5%BF%B5%E3%80%901%E3%80%91/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          面试题-JavaScript交换两个变量的方法
+          React的入门知识与概念【1】
         
       </div>
     </a>
@@ -460,25 +467,17 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
       
     
-      
-      
-      
-    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友情链接</a></li>
-      
-        
-      
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -503,15 +502,27 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">JavaScript</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">JS</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">技术</a>
+                <a href="javascript:void(0)" class="js-tag color1">React</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">博客</a>
+                <a href="javascript:void(0)" class="js-tag color4">Vue</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">WebRTC</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">CSS</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -519,7 +530,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">生活</a>
+                <a href="javascript:void(0)" class="js-tag color5">HTML</a>
               </li>
             
             <div class="clearfix"></div>
@@ -566,27 +577,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
 
     
-    	<section class="tools-section tools-section-friends" q-show="friends">
-  		
-        <ul class="search-ul">
-          
-            <li class="search-li">
-              <a href="https://github.com/peerless1029" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>跳转至github</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="https://www.cnblogs.com/peerless1029/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>跳转至博客园</a>
-            </li>
-          
-        </ul>
-  		
-    	</section>
-    
 
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">一只毕业于2017年且爱打羽毛球的前端程序猿&lt;br&gt;&lt;br&gt;邮箱:172453591@qq.com&lt;br&gt;</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">毕业于2017年,坐标广州&lt;br&gt;&lt;br&gt;Web前端开发攻城狮&lt;br&gt;&lt;br&gt;爱好打羽毛球、健身&lt;br&gt;&lt;br&gt;邮箱:172453591@qq.com&lt;br&gt;</div>
   	  	
     	</section>
     
