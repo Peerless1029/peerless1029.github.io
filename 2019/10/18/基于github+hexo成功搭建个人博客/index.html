@@ -6,18 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="//peerless1029.github.io">
-  <title>JavaScript引用类型之Array类型API详解 | Peerless的博客</title>
+  <title>基于github+hexo成功搭建个人博客 | Peerless的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="博客迁移 原博客园链接 Array类型也是ECMASCRIPT中最常见的数据类型，而且数据的每一项可以保存任何类型的数值，而且数组的大小是可以动态调整的，可以随着数据的添加自动增长以容纳新的数据。下面，总结数据的一些常用方法：">
-<meta name="keywords" content="博客园,JavaScript">
+  <meta name="description" content="近期自己买了一个腾讯云服务器以及域名，准备用来建设一个属于自己个人网站的，一方面自己熟悉一些网站部署，域名备案，Linux基本操作等技术；另一方面也记录一下自己平时工作积累，技术学习，以及生活等等。说实话，如果要亲自完成一个博客系统不仅仅是要前端技术，更是涉及到后端服务，MySql,等等，确实需要点技术。于是乎，有现成好用的博客框架，先把博客建设起来，后续再逐步学习其他技术，百度一下搭建网站，利">
+<meta name="keywords" content="杂谈">
 <meta property="og:type" content="article">
-<meta property="og:title" content="JavaScript引用类型之Array类型API详解">
-<meta property="og:url" content="&#x2F;&#x2F;peerless1029.github.io&#x2F;2018&#x2F;11&#x2F;07&#x2F;JavaScript%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E4%B9%8BArray%E7%B1%BB%E5%9E%8BAPI%E8%AF%A6%E8%A7%A3&#x2F;index.html">
+<meta property="og:title" content="基于github+hexo成功搭建个人博客">
+<meta property="og:url" content="&#x2F;&#x2F;peerless1029.github.io&#x2F;2019&#x2F;10&#x2F;18&#x2F;%E5%9F%BA%E4%BA%8Egithub+hexo%E6%88%90%E5%8A%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2&#x2F;index.html">
 <meta property="og:site_name" content="Peerless的博客">
-<meta property="og:description" content="博客迁移 原博客园链接 Array类型也是ECMASCRIPT中最常见的数据类型，而且数据的每一项可以保存任何类型的数值，而且数组的大小是可以动态调整的，可以随着数据的添加自动增长以容纳新的数据。下面，总结数据的一些常用方法：">
+<meta property="og:description" content="近期自己买了一个腾讯云服务器以及域名，准备用来建设一个属于自己个人网站的，一方面自己熟悉一些网站部署，域名备案，Linux基本操作等技术；另一方面也记录一下自己平时工作积累，技术学习，以及生活等等。说实话，如果要亲自完成一个博客系统不仅仅是要前端技术，更是涉及到后端服务，MySql,等等，确实需要点技术。于是乎，有现成好用的博客框架，先把博客建设起来，后续再逐步学习其他技术，百度一下搭建网站，利">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-10-20T13:17:27.744Z">
+<meta property="og:image" content="http:&#x2F;&#x2F;pzpyvtukv.bkt.clouddn.com&#x2F;jsIsFutrue.png">
+<meta property="og:updated_time" content="2019-10-22T14:57:09.480Z">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;pzpyvtukv.bkt.clouddn.com&#x2F;jsIsFutrue.png">
   
     <link rel="alternative" href="/atom.xml" title="Peerless的博客" type="application/atom+xml">
   
@@ -160,91 +162,42 @@
           </div>
           <div id="js-content" class="content-ll">
             
-<article id="post-JavaScript引用类型之Array类型API详解" class="article article-type-post " itemscope itemprop="blogPost">
+<article id="post-基于github+hexo成功搭建个人博客" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      JavaScript引用类型之Array类型API详解
+      基于github+hexo成功搭建个人博客
     </h1>
   
 
 
         
-        <a href="/2018/11/07/JavaScript%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E4%B9%8BArray%E7%B1%BB%E5%9E%8BAPI%E8%AF%A6%E8%A7%A3/" class="archive-article-date">
-  	<time datetime="2018-11-06T16:42:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-07</time>
+        <a href="/2019/10/18/%E5%9F%BA%E4%BA%8Egithub+hexo%E6%88%90%E5%8A%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
+  	<time datetime="2019-10-17T18:52:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-18</time>
 </a>
 
         
       </header>
 	  <!--div align="center" class="post-count">
-		字数：1.7k字 | 预计阅读时长：7分钟
+		字数：380字 | 预计阅读时长：1分钟
 	  </div-->
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>博客迁移 <a href="https://www.cnblogs.com/peerless1029/p/9919908.html" target="_blank" rel="noopener">原博客园链接</a></p>
-<p>Array类型也是ECMASCRIPT中最常见的数据类型，而且数据的每一项可以保存任何类型的数值，而且数组的大小是可以动态调整的，可以随着数据的添加自动增长以容纳新的数据。下面，总结数据的一些常用方法：</p>
+        <p><img src="http://pzpyvtukv.bkt.clouddn.com/jsIsFutrue.png" alt="jsIsFutrue.png"></p>
+<p>近期自己买了一个腾讯云服务器以及域名，准备用来建设一个属于自己个人网站的，一方面自己熟悉一些网站部署，域名备案，Linux基本操作等技术；另一方面也记录一下自己平时工作积累，技术学习，以及生活等等。说实话，如果要亲自完成一个博客系统不仅仅是要前端技术，更是涉及到后端服务，MySql,等等，确实需要点技术。于是乎，有现成好用的博客框架，先把博客建设起来，后续再逐步学习其他技术，百度一下搭建网站，利用git+hexo，还有个免费域名可以跳转到网站上，hexo博客简约而不简单，写博客都是.md格式的，不太熟练，还需加强。</p>
 <a id="more"></a>
-<h4 id="1-创建数组"><a href="#1-创建数组" class="headerlink" title="1.创建数组"></a>1.创建数组</h4><p>  1.1.使用Array构造函数</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> arr=<span class="keyword">new</span> <span class="built_in">Array</span>(<span class="number">4</span>); <span class="comment">//创建一个包含3项的空数组</span></span><br><span class="line"><span class="keyword">var</span> arr2=<span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">'red'</span>,<span class="string">'blue'</span>,<span class="string">'yellow'</span>); <span class="comment">//['red','blue','yellow']</span></span><br></pre></td></tr></table></figure>
-<p>1.2.数组字面量创建</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> arr3=[]; <span class="comment">//[]</span></span><br><span class="line"><span class="keyword">var</span> arr4=[<span class="string">'red'</span>,<span class="string">'yellow'</span>]; <span class="comment">//['red','yellow']</span></span><br><span class="line"><span class="keyword">var</span> arr5=[<span class="number">1</span>,<span class="number">2</span>,]; <span class="comment">//[1,2,]</span></span><br></pre></td></tr></table></figure>
-<h4 id="2-读取和设置数组的值"><a href="#2-读取和设置数组的值" class="headerlink" title="2.读取和设置数组的值"></a>2.读取和设置数组的值</h4><ul>
-<li>index数组的索引，即下标，当index&lt;arr.length时，可以获取数组中的值，否则取到的值为undefined。</li>
-<li>通过设置数组的length，可以对数组的末尾移除或添加<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> arr4=[<span class="string">'red'</span>,<span class="string">'yellow'</span>];</span><br><span class="line"><span class="built_in">console</span>.log(</span><br><span class="line">  arr4[<span class="number">0</span>],</span><br><span class="line">  arr4[<span class="number">2</span>],</span><br><span class="line">);</span><br><span class="line"><span class="comment">//red</span></span><br><span class="line"><span class="comment">//undefined</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> arr4=[<span class="string">'red'</span>,<span class="string">'yellow'</span>];</span><br><span class="line">arr4.length=<span class="number">1</span>;</span><br><span class="line"><span class="built_in">console</span>.log(arr4);</span><br><span class="line">arr4.length=<span class="number">3</span>;</span><br><span class="line"><span class="built_in">console</span>.log(arr4);</span><br><span class="line"><span class="comment">//["red"] 长度变为1</span></span><br><span class="line"><span class="comment">//["red", empty × 2] 长度变为3，后两项为空</span></span><br><span class="line"> </span><br><span class="line"><span class="keyword">var</span> arr=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>];</span><br><span class="line">arr[<span class="number">10</span>]=<span class="number">10</span>;</span><br><span class="line"><span class="built_in">console</span>.log(arr);</span><br><span class="line"><span class="comment">//[1, 2, 3, empty × 7, 10] length为10中间的值为undefined</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<p><strong>小结：通过arr[arr.length-1]可以获取到数组的最后一项，通过arr[length]=item可以设置最后一项的值并动态增加了数组的长度</strong></p>
-<h4 id="3-数组的方法"><a href="#3-数组的方法" class="headerlink" title="3.数组的方法"></a>3.数组的方法</h4><p>3.1.连接两个数组或多个数组-concat<br>不改变原始数组，需要用新的变量保存返回的新数组</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> arr1=[<span class="number">1</span>,<span class="number">2</span>];</span><br><span class="line"><span class="keyword">var</span> arr2=[<span class="number">2</span>,<span class="number">3</span>];</span><br><span class="line">arr1.concat(arr2);</span><br><span class="line"><span class="built_in">console</span>.log(arr1,arr2);</span><br><span class="line"><span class="keyword">var</span> arr3=arr1.concat(arr2);</span><br><span class="line"><span class="built_in">console</span>.log(arr3);</span><br><span class="line"></span><br><span class="line"><span class="comment">// [1, 2] (2) [2, 3]</span></span><br><span class="line"><span class="comment">// [1, 2, 2, 3]</span></span><br></pre></td></tr></table></figure>
-<p>3.2.截取数组一部分-slice<br>arr.slice(startIndex,endIndex);截取的项包括数组开始的索引的项，不包括数组结束的索引的项,也不改变原始数组，需要用新的变量保存返回的新数组。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> arr=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>];</span><br><span class="line">arr.slice(<span class="number">0</span>,<span class="number">1</span>);</span><br><span class="line"><span class="built_in">console</span>.log(arr);</span><br><span class="line"><span class="keyword">var</span> sub=arr.slice(<span class="number">0</span>,<span class="number">1</span>);</span><br><span class="line"><span class="built_in">console</span>.log(sub);</span><br><span class="line"><span class="comment">// [1, 2, 3]</span></span><br><span class="line"><span class="comment">// [1]</span></span><br></pre></td></tr></table></figure>
-<p>3.3用不同的分隔符构建字符串-join<br>默认以’,’拼接，</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> arr=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>];</span><br><span class="line"><span class="keyword">var</span> str1=arr.join();</span><br><span class="line"><span class="keyword">var</span> str2=arr.join(<span class="string">"-"</span>);</span><br><span class="line"><span class="built_in">console</span>.log(str1,str2);</span><br><span class="line"><span class="comment">//1,2,3</span></span><br><span class="line"><span class="comment">//1-2-3</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 根据数组拼接成html字符串</span></span><br><span class="line"><span class="keyword">var</span> arr=[<span class="string">"HTML"</span>,<span class="string">"CSS"</span>,<span class="string">"JS"</span>];</span><br><span class="line"><span class="keyword">var</span> html=<span class="string">'&lt;li&gt;'</span>+arr.join(<span class="string">'&lt;/li&gt;&lt;li&gt;'</span>)+<span class="string">'&lt;/li&gt;'</span>;</span><br><span class="line"><span class="built_in">console</span>.log(html);</span><br><span class="line"><span class="comment">// HTML&lt;/li&gt;&lt;li&gt;CSS&lt;/li&gt;&lt;li&gt;JS&lt;/li&gt;</span></span><br></pre></td></tr></table></figure>
-<p>3.4.数组的反转-reverse</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> arr=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>];</span><br><span class="line">arr.reverse();</span><br><span class="line"><span class="comment">// [5, 4, 3, 2, 1]</span></span><br></pre></td></tr></table></figure>
-<p>3.5.数组的排序-sort方法<br>这里只是通过出入比较函数给sort方法来保持正确的排序，对象也可以根据某一属性来进行正确的排序，这里暂不赘述。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> arr=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">11</span>,<span class="number">5</span>,<span class="number">50</span>];</span><br><span class="line">arr.sort();</span><br><span class="line"><span class="comment">// [1, 11, 2, 5, 50] 按照uicode编码排序不是我们想要的结果</span></span><br><span class="line">通过传入比较函数保证正确的排序</span><br><span class="line">arr.sort(<span class="function"><span class="keyword">function</span>(<span class="params">a,b</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(a&lt;b)&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">  &#125;<span class="keyword">else</span> <span class="keyword">if</span>(a&gt;b)&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">  &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br><span class="line"><span class="comment">// [1, 2, 5, 11, 50]</span></span><br></pre></td></tr></table></figure>
-<p>3.6.数组的删除，替换，插入-splice方法</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">array.splice(index,howmany,item1,.....,itemX)；</span><br><span class="line"><span class="comment">// 删除开始索引后的第几个元素</span></span><br><span class="line"><span class="keyword">var</span> arr=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>];</span><br><span class="line">arr.splice(<span class="number">1</span>,<span class="number">1</span>); <span class="comment">//[1, 3, 4, 5]</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 删除开始索引后的第几个元素然后插入新的值</span></span><br><span class="line"><span class="keyword">var</span> arr1=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>];</span><br><span class="line">arr1.splice(<span class="number">1</span>,<span class="number">2</span>,<span class="number">11</span>,<span class="number">22</span>); <span class="comment">// [1, 11, 22, 4, 5]</span></span><br></pre></td></tr></table></figure>
-<p>3.7.栈方法<br>数组提供了一种让数组类似于其他数据结构的方法，栈是一种LIFO（Last-In-First-Out）后进先出的数据结构，也就是最新添加的最早被移除。</p>
-<ul>
-<li>栈中的推入-push,接收任意变量的参数，把他们添加到数组的末尾，并返回修改后数组的长度</li>
-<li>栈中的弹出-pop，从数组末尾移除最后一项，减少length值，然后返回移除的项<br>都发生在同一位置-栈的顶部。<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> arr=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>];</span><br><span class="line">arr.push(<span class="string">'a'</span>); <span class="comment">//4 返回数组的长度</span></span><br><span class="line">arr <span class="comment">// [1, 2, 3, "a"]</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> arr=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>];</span><br><span class="line">arr.pop(); <span class="comment">//3  返回数组最后一项的弹出值</span></span><br><span class="line">arr <span class="comment">// [1, 2]</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<p>3.8.队列方法<br>队列的数据结构是FIFO（First-In-First-Out），队列在数组的末端添加项，在列表的前端移除项。</p>
-<ul>
-<li>末端添加项-push,</li>
-<li>前端移除项-shift,移除数组中的第一项，并返回该项，同时将数组长度减1,</li>
-<li>前端新增项-unshift,在数组前端新增一项并返回数组的新长度。</li>
-<li>通过数组的unshift和pop方法可以从相反方向的来模拟队列<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> arr=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>];</span><br><span class="line">arr.push(<span class="number">4</span>) <span class="comment">//4</span></span><br><span class="line">arr.shift();  <span class="comment">//1</span></span><br><span class="line">arr; <span class="comment">//[2,3,4]</span></span><br><span class="line">arr.unshift(<span class="string">"a"</span>); <span class="comment">//4</span></span><br><span class="line">arr; <span class="comment">//["a",1,2,3]</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<p>3.9.数组的位置方法-indexOf,lastIndexOf</p>
-<ul>
-<li>indexOf() 方法可返回数组中某个指定的元素位置。该方法将从头到尾地检索数组，看它是否含有对应的元素。开始检索的位置在数组 start 处或数组的开头（没有指定 start 参数时）。如果找到一个 item，则返回 item 的第一次出现的位置。开始位置的索引为 0。如果在数组中没找到指定元素则返回 -1。</li>
-<li>lastIndexOf() 方法可返回数组中从尾到头方向上的位置，找到返回第一次出现的位置，否则返回-1。<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> arr=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">1</span>,<span class="number">4</span>];</span><br><span class="line">arr.indexOf(<span class="number">1</span>); <span class="comment">//0</span></span><br><span class="line">arr.lastIndexOf(<span class="number">1</span>); <span class="comment">//3</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<p>3.10.数组的平铺（有些低版本浏览器不兼容）<br>方法会递归到指定深度将所有子数组连接，并返回一个新数组。arr.flat(depth);默认深度为1</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> arr=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,[<span class="number">4</span>,<span class="number">5</span>],[<span class="number">7</span>,<span class="number">8</span>]];</span><br><span class="line"><span class="keyword">var</span> arr2=arr.flat(); <span class="comment">//等价于arr.flat(1)</span></span><br><span class="line"><span class="built_in">console</span>.log(arr2);</span><br><span class="line"><span class="comment">// [1, 2, 3, 4, 5, 7, 8]</span></span><br></pre></td></tr></table></figure>
-<h4 id="4-数组的迭代方法"><a href="#4-数组的迭代方法" class="headerlink" title="4.数组的迭代方法"></a>4.数组的迭代方法</h4><p>4.1.every():对数组的每一项运行给定函数，如果该函数对每一项都返回true,则返回true</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> numbers=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>];</span><br><span class="line"><span class="keyword">var</span> result=numbers.every(<span class="function"><span class="keyword">function</span>(<span class="params">item,index,arr</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">return</span> item&gt;<span class="number">2</span>;</span><br><span class="line">&#125;)</span><br><span class="line">result  <span class="comment">//false</span></span><br></pre></td></tr></table></figure>
-<p>4.2.some():对数组的每一项运行给定函数，如果该函数对任一项返回true,则返回true</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> numbers=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>];</span><br><span class="line"><span class="keyword">var</span> result=numbers.some(<span class="function"><span class="keyword">function</span>(<span class="params">item,index,arr</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">return</span> item&gt;<span class="number">2</span>;</span><br><span class="line">&#125;)</span><br><span class="line">result  <span class="comment">//false</span></span><br></pre></td></tr></table></figure>
-<p>4.3.filter():对数组中每一项运行给定的函数，返回该函数会返回true的项组成新的数组</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> numbers=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>];</span><br><span class="line"><span class="keyword">var</span> result=numbers.filter(<span class="function"><span class="keyword">function</span>(<span class="params">item,index,arr</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">return</span> item&gt;<span class="number">2</span>;</span><br><span class="line">&#125;);</span><br><span class="line">result <span class="comment">//[3, 4, 5]</span></span><br></pre></td></tr></table></figure>
-<p>4.4.map():对数组中每一项运行给定的函数，返回每次函数调用的结果组成新的数组</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> numbers=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>];</span><br><span class="line"><span class="keyword">var</span> result=numbers.map(<span class="function"><span class="keyword">function</span>(<span class="params">item,index,arr</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">return</span> item*item;</span><br><span class="line">&#125;);</span><br><span class="line">result <span class="comment">// [1, 4, 9, 16, 25]</span></span><br></pre></td></tr></table></figure>
-<p>4.5.foreach():对数组中每一项运行给定函数，这个方法没有结果，与for循环迭代数组一样</p>
-<h6 id="眼过千遍，不如手写一遍，以上是对JavaScript数组常用API的一些总结，也是平常业务开发中会经常使用到的，如有不足，欢迎指正。"><a href="#眼过千遍，不如手写一遍，以上是对JavaScript数组常用API的一些总结，也是平常业务开发中会经常使用到的，如有不足，欢迎指正。" class="headerlink" title="眼过千遍，不如手写一遍，以上是对JavaScript数组常用API的一些总结，也是平常业务开发中会经常使用到的，如有不足，欢迎指正。"></a>眼过千遍，不如手写一遍，以上是对JavaScript数组常用API的一些总结，也是平常业务开发中会经常使用到的，如有不足，欢迎指正。</h6><p>参考资料：<br>《JavaScript高级程序设计》<br><a href="https://www.runoob.com/" target="_blank" rel="noopener">《菜鸟教程》</a><br><a href="https://developer.mozilla.org/zh-CN/" target="_blank" rel="noopener">《MDN》</a></p>
-<p>　　　　</p>
+<p>近一年断断续续在博客园写过博客，近几个月偷懒没更了，近日，偶然翻到<a href="https://www.zhangxinxu.com/" target="_blank" rel="noopener">张鑫旭的个人网站</a>，佩服，除了技术文章写得好，生活，小说同样写的溜。能十年如一日地深耕一个领域，坚持写博客记录真的很了不起，最可怕的是比你优秀很多的人还比你更努力。</p>
+<p>作为入行近三年的一个前端码农，除了工作中能完成业务需求之外，需要自己学习提高的方面还很多，趁年轻，多付出，才能有更大的收获，晚安，全世界。</p>
 
       
 
       
       <p style="font-size: 14px;color:#999;margin: 0;">
-        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2018/11/07/JavaScript%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E4%B9%8BArray%E7%B1%BB%E5%9E%8BAPI%E8%AF%A6%E8%A7%A3/" class="pageViews">0</span>次
+        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2019/10/18/%E5%9F%BA%E4%BA%8Egithub+hexo%E6%88%90%E5%8A%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="pageViews">0</span>次
       </p>
       
 
@@ -289,11 +242,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">博客园</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">杂谈</a>
         		</li>
       		
 		</ul>
@@ -349,7 +298,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://peerless1029.github.io/2018/11/07/JavaScript%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E4%B9%8BArray%E7%B1%BB%E5%9E%8BAPI%E8%AF%A6%E8%A7%A3/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://peerless1029.github.io/2019/10/18/%E5%9F%BA%E4%BA%8Egithub+hexo%E6%88%90%E5%8A%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -364,18 +313,18 @@
   
 <nav id="article-nav">
   
-    <a href="/2018/11/13/WebRTC%E7%B3%BB%E5%88%97%E3%80%901%E3%80%91-%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%8D%E7%85%A7%E5%AE%A4Demo/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2019/10/20/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E4%BB%A5%E5%8F%8A%E4%BC%98%E5%8C%96/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          WebRTC系列[1]手把手教你实现一个浏览器拍照室Demo
+          博客迁移以及优化
         
       </div>
     </a>
   
   
-    <a href="/2018/10/26/React%E7%9A%84%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86%E4%B8%8E%E6%A6%82%E5%BF%B5%E3%80%901%E3%80%91/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">React的入门知识与概念【1】</div>
+    <a href="/2019/10/17/HelloHexo,HelloWorld/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello Hexo , Hello World</div>
       <i class="icon-circle-right"></i>
     </a>
   
