@@ -75,7 +75,7 @@
 			</ul>
 		</nav>
 		<nav>
-			总文章数 20
+			总文章数 21
 		</nav>
 		<nav class="header-smart-menu">
     		
@@ -95,7 +95,7 @@
 		        
 					<a class="weixin" target="_blank" href="/assets/Peerless_weChat.jpg" title="weixin"><i class="icon-weixin"></i></a>
 		        
-					<a class="mail" target="_blank" href="mailto:172453591@qq.com" title="mail"><i class="icon-mail"></i></a>
+					<a class="mail" target="_blank" href="/mailto:172453591@qq.com" title="mail"><i class="icon-mail"></i></a>
 		        
 				<!--iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=478507889&auto=0&height=66"></iframe-->
 			</div>
@@ -139,7 +139,7 @@
 			        
 						<a class="weixin" target="_blank" href="/assets/Peerless_weChat.jpg" title="weixin"><i class="icon-weixin"></i></a>
 			        
-						<a class="mail" target="_blank" href="mailto:172453591@qq.com" title="mail"><i class="icon-mail"></i></a>
+						<a class="mail" target="_blank" href="/mailto:172453591@qq.com" title="mail"><i class="icon-mail"></i></a>
 			        
 				</div>
 			</nav>
@@ -168,6 +168,102 @@
           </div>
           <div id="js-content" class="content-ll">
             
+  
+    <article id="post-用原生JS从零到一实现Redux架构" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/04/28/%E7%94%A8%E5%8E%9F%E7%94%9FJS%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%80%E5%AE%9E%E7%8E%B0Redux%E6%9E%B6%E6%9E%84/">用原生JS从零到一实现Redux架构</a>
+    </h1>
+  
+
+
+        
+        <a href="/2019/04/28/%E7%94%A8%E5%8E%9F%E7%94%9FJS%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%80%E5%AE%9E%E7%8E%B0Redux%E6%9E%B6%E6%9E%84/" class="archive-article-date">
+  	<time datetime="2019-04-28T00:12:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-28</time>
+</a>
+
+        
+      </header>
+	  <!--div align="center" class="post-count">
+		字数：3.2k字 | 预计阅读时长：12分钟
+	  </div-->
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>博客迁移 <a href="https://www.cnblogs.com/peerless1029/p/10781391.html" target="_blank" rel="noopener">原博客园链接</a></p>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>最近利用业余时间阅读了胡子大哈写的《React小书》，从基本的原理讲解了React，Redux等等受益颇丰。眼过千遍不如手写一遍，跟着作者的思路以及参考代码可以实现基本的Demo，下面根据自己的理解和参考一些资料，用原生JS从零开始实现一个Redux架构。</p>
+        
+          <a class="article-more-a" href="/2019/04/28/%E7%94%A8%E5%8E%9F%E7%94%9FJS%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%80%E5%AE%9E%E7%8E%B0Redux%E6%9E%B6%E6%9E%84/#more">more >></a>
+        
+      
+
+      
+      <p style="font-size: 14px;color:#999;margin: 0;">
+        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2019/04/28/%E7%94%A8%E5%8E%9F%E7%94%9FJS%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%80%E5%AE%9E%E7%8E%B0Redux%E6%9E%B6%E6%9E%84/" class="pageViews">0</span>次
+      </p>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">博客园</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">React</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/04/28/%E7%94%A8%E5%8E%9F%E7%94%9FJS%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%80%E5%AE%9E%E7%8E%B0Redux%E6%9E%B6%E6%9E%84/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
   
     <article id="post-页面性能优化-原生JS实现图片懒加载" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
@@ -835,102 +931,6 @@
 
 
   
-    <article id="post-WebRTC系列【1】-手把手教你实现一个浏览器拍照室Demo" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/11/13/WebRTC%E7%B3%BB%E5%88%97%E3%80%901%E3%80%91-%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%8D%E7%85%A7%E5%AE%A4Demo/">WebRTC系列[1]手把手教你实现一个浏览器拍照室Demo</a>
-    </h1>
-  
-
-
-        
-        <a href="/2018/11/13/WebRTC%E7%B3%BB%E5%88%97%E3%80%901%E3%80%91-%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%8D%E7%85%A7%E5%AE%A4Demo/" class="archive-article-date">
-  	<time datetime="2018-11-13T15:44:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-13</time>
-</a>
-
-        
-      </header>
-	  <!--div align="center" class="post-count">
-		字数：2k字 | 预计阅读时长：7分钟
-	  </div-->
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>博客迁移 <a href="https://www.cnblogs.com/peerless1029/p/9955640.html" target="_blank" rel="noopener">原博客园链接</a></p>
-<h4 id="1-WebRTC开发背景"><a href="#1-WebRTC开发背景" class="headerlink" title="1.WebRTC开发背景"></a>1.WebRTC开发背景</h4><p>由于业务需求，需要在项目中实现实时音视频通话功能，之前基于浏览器开发的Web项目要进行音视频通话，需要安装flash插件才能实现或者使用C/S客户端进行通信。随着互联网技术的驱动下，在很多场景下需要进行音视频通信，在生活中我们现在使用电话越来越少，使用微信和视频越来越多。在一些行业也需要进行音视频实时通信，如：在线教育，远程医疗，保险理赔等等。有了WebRTC，可以开发一些好的网页应用，
-        
-          <a class="article-more-a" href="/2018/11/13/WebRTC%E7%B3%BB%E5%88%97%E3%80%901%E3%80%91-%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%8D%E7%85%A7%E5%AE%A4Demo/#more">more >></a>
-        
-      
-
-      
-      <p style="font-size: 14px;color:#999;margin: 0;">
-        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2018/11/13/WebRTC%E7%B3%BB%E5%88%97%E3%80%901%E3%80%91-%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%8D%E7%85%A7%E5%AE%A4Demo/" class="pageViews">0</span>次
-      </p>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">博客园</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">WebRTC</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/11/13/WebRTC%E7%B3%BB%E5%88%97%E3%80%901%E3%80%91-%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%8D%E7%85%A7%E5%AE%A4Demo/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/">Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/">Next</a>
@@ -1088,11 +1088,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">杂谈</a>
+                <a href="javascript:void(0)" class="js-tag color1">React</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">React</a>
+                <a href="javascript:void(0)" class="js-tag color3">杂谈</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1105,6 +1105,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">WebRTC</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">DIY装机</a>
               </li>
              
               <li class="article-tag-list-item">
