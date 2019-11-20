@@ -75,7 +75,7 @@
 			</ul>
 		</nav>
 		<nav>
-			总文章数 22
+			总文章数 23
 		</nav>
 		<nav class="header-smart-menu">
     		
@@ -168,6 +168,94 @@
           </div>
           <div id="js-content" class="content-ll">
             
+  
+    <article id="post-你不知道的JS系列【1】- 什么是作用域" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/11/20/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JS%E7%B3%BB%E5%88%97%E3%80%901%E3%80%91-%20%E4%BB%80%E4%B9%88%E6%98%AF%E4%BD%9C%E7%94%A8%E5%9F%9F/">你不知道的JS系列【1】- 什么是作用域</a>
+    </h1>
+  
+
+
+        
+        <a href="/2019/11/20/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JS%E7%B3%BB%E5%88%97%E3%80%901%E3%80%91-%20%E4%BB%80%E4%B9%88%E6%98%AF%E4%BD%9C%E7%94%A8%E5%9F%9F/" class="archive-article-date">
+  	<time datetime="2019-11-19T16:59:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-20</time>
+</a>
+
+        
+      </header>
+	  <!--div align="center" class="post-count">
+		字数：1.9k字 | 预计阅读时长：6分钟
+	  </div-->
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>&emsp;&emsp;几乎所有的编程语言都能够储存变量，并且能在之后对这个变量值进行访问或修改，正是储存和访问变量的能力将<strong>状态</strong>带给了程序，那么，这些变量储存在哪里呢？程序需要时又是如何找到他们？这些问题说明需要一套设计良好的规则来储存变量，并且之后可以方便的找到这些变量，这套规则被称为<strong>作用域</strong>。</p>
+<h3 id="1、了解编译原理"><a href="#1、了解编译原理" class="headerlink" title="1、了解编译原理"></a>1、了解编译原理</h3><p>&emsp;&emsp;尽管将JS归类为“动态”或“解释执行”脚本语言，但事实上它是一门编译语言。但是与传统编译语言不同的是，它不是提前编译的，编译结果也不能在分布式系统中进行移植。JS引擎进行编译的步骤与传统的语言非常相似，程序中一段源代码在执行之前会经历三个步骤，统称为“编译”。</p>
+        
+          <a class="article-more-a" href="/2019/11/20/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JS%E7%B3%BB%E5%88%97%E3%80%901%E3%80%91-%20%E4%BB%80%E4%B9%88%E6%98%AF%E4%BD%9C%E7%94%A8%E5%9F%9F/#more">more >></a>
+        
+      
+
+      
+      <p style="font-size: 14px;color:#999;margin: 0;">
+        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2019/11/20/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JS%E7%B3%BB%E5%88%97%E3%80%901%E3%80%91-%20%E4%BB%80%E4%B9%88%E6%98%AF%E4%BD%9C%E7%94%A8%E5%9F%9F/" class="pageViews">0</span>次
+      </p>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/11/20/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JS%E7%B3%BB%E5%88%97%E3%80%901%E3%80%91-%20%E4%BB%80%E4%B9%88%E6%98%AF%E4%BD%9C%E7%94%A8%E5%9F%9F/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
   
     <article id="post-JS高程-教你写出可维护的代码" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
@@ -403,11 +491,11 @@
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Vue</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">HTML</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">HTML</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Vue</a>
         		</li>
       		
 		</ul>
@@ -806,93 +894,6 @@
 
 
   
-    <article id="post-HelloHexo,HelloWorld" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/10/17/HelloHexo,HelloWorld/">Hello Hexo , Hello World</a>
-    </h1>
-  
-
-
-        
-        <a href="/2019/10/17/HelloHexo,HelloWorld/" class="archive-article-date">
-  	<time datetime="2019-10-17T15:11:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-17</time>
-</a>
-
-        
-      </header>
-	  <!--div align="center" class="post-count">
-		字数：73字 | 预计阅读时长：1分钟
-	  </div-->
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-        
-          <a class="article-more-a" href="/2019/10/17/HelloHexo,HelloWorld/#more">more >></a>
-        
-      
-
-      
-      <p style="font-size: 14px;color:#999;margin: 0;">
-        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2019/10/17/HelloHexo,HelloWorld/" class="pageViews">0</span>次
-      </p>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/10/17/HelloHexo,HelloWorld/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
   
     <nav id="page-nav">
       <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/">Next</a>
@@ -1046,6 +1047,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">HTML</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">Vue</a>
               </li>
              
@@ -1058,19 +1063,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">CSS</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">WebRTC</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">杂谈</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">CSS</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">HTML</a>
               </li>
              
               <li class="article-tag-list-item">
