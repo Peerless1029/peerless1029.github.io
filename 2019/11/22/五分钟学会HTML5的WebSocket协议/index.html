@@ -6,13 +6,13 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="//peerless1029.github.io">
-  <title>聊聊HTML5的WebSocket协议 | Peerless的博客</title>
+  <title>五分钟学会HTML5的WebSocket协议 | Peerless的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="1、背景&amp;emsp;&amp;emsp;很多网站为了实现推送技术，所用的技术都是Ajax轮询。轮询是在特定的的时间间隔由浏览器对服务器发出HTTP请求，然后由服务器返回最新的数据给客户端的浏览器。这种传统的模式带来很明显的缺点，即浏览器需要不断的向服务器发出请求，然而HTTP请求可能包含较长的头部，其中真正有效的数据可能只是很小的一部分，显然这样会浪费很多的带宽等资源。HTML5新增的一些新协议WebSo">
 <meta name="keywords" content="JavaScript,HTML">
 <meta property="og:type" content="article">
-<meta property="og:title" content="聊聊HTML5的WebSocket协议">
-<meta property="og:url" content="&#x2F;&#x2F;peerless1029.github.io&#x2F;2019&#x2F;11&#x2F;22&#x2F;%E8%81%8A%E8%81%8AHTML5%E7%9A%84%E6%96%B0%E5%8D%8F%E8%AE%AEWebSocket&#x2F;index.html">
+<meta property="og:title" content="五分钟学会HTML5的WebSocket协议">
+<meta property="og:url" content="&#x2F;&#x2F;peerless1029.github.io&#x2F;2019&#x2F;11&#x2F;22&#x2F;%E4%BA%94%E5%88%86%E9%92%9F%E5%AD%A6%E4%BC%9AHTML5%E7%9A%84WebSocket%E5%8D%8F%E8%AE%AE&#x2F;index.html">
 <meta property="og:site_name" content="Peerless的博客">
 <meta property="og:description" content="1、背景&amp;emsp;&amp;emsp;很多网站为了实现推送技术，所用的技术都是Ajax轮询。轮询是在特定的的时间间隔由浏览器对服务器发出HTTP请求，然后由服务器返回最新的数据给客户端的浏览器。这种传统的模式带来很明显的缺点，即浏览器需要不断的向服务器发出请求，然而HTTP请求可能包含较长的头部，其中真正有效的数据可能只是很小的一部分，显然这样会浪费很多的带宽等资源。HTML5新增的一些新协议WebSo">
 <meta property="og:locale" content="zh-CN">
@@ -20,7 +20,7 @@
 <meta property="og:image" content="&#x2F;&#x2F;peerless1029.github.io&#x2F;imgs&#x2F;ws&#x2F;ws02.png">
 <meta property="og:image" content="&#x2F;&#x2F;peerless1029.github.io&#x2F;imgs&#x2F;ws&#x2F;ws03.png">
 <meta property="og:image" content="&#x2F;&#x2F;peerless1029.github.io&#x2F;imgs&#x2F;ws&#x2F;ws04.png">
-<meta property="og:updated_time" content="2019-11-22T00:47:09.527Z">
+<meta property="og:updated_time" content="2019-11-22T00:47:56.258Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="&#x2F;&#x2F;peerless1029.github.io&#x2F;imgs&#x2F;ws&#x2F;ws01.png">
   
@@ -174,20 +174,20 @@
           </div>
           <div id="js-content" class="content-ll">
             
-<article id="post-聊聊HTML5的新协议WebSocket" class="article article-type-post " itemscope itemprop="blogPost">
+<article id="post-五分钟学会HTML5的WebSocket协议" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      聊聊HTML5的WebSocket协议
+      五分钟学会HTML5的WebSocket协议
     </h1>
   
 
 
         
-        <a href="/2019/11/22/%E8%81%8A%E8%81%8AHTML5%E7%9A%84%E6%96%B0%E5%8D%8F%E8%AE%AEWebSocket/" class="archive-article-date">
+        <a href="/2019/11/22/%E4%BA%94%E5%88%86%E9%92%9F%E5%AD%A6%E4%BC%9AHTML5%E7%9A%84WebSocket%E5%8D%8F%E8%AE%AE/" class="archive-article-date">
   	<time datetime="2019-11-21T17:00:52.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-22</time>
 </a>
 
@@ -276,7 +276,7 @@
 
       
       <p style="font-size: 14px;color:#999;margin: 0;">
-        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2019/11/22/%E8%81%8A%E8%81%8AHTML5%E7%9A%84%E6%96%B0%E5%8D%8F%E8%AE%AEWebSocket/" class="pageViews">0</span>次
+        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2019/11/22/%E4%BA%94%E5%88%86%E9%92%9F%E5%AD%A6%E4%BC%9AHTML5%E7%9A%84WebSocket%E5%8D%8F%E8%AE%AE/" class="pageViews">0</span>次
       </p>
       
 
@@ -381,7 +381,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://peerless1029.github.io/2019/11/22/%E8%81%8A%E8%81%8AHTML5%E7%9A%84%E6%96%B0%E5%8D%8F%E8%AE%AEWebSocket/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://peerless1029.github.io/2019/11/22/%E4%BA%94%E5%88%86%E9%92%9F%E5%AD%A6%E4%BC%9AHTML5%E7%9A%84WebSocket%E5%8D%8F%E8%AE%AE/" alt="微信分享二维码">
     </div>
 </div>
 
