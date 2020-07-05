@@ -1,0 +1,41 @@
+#header ul li:nth-child(3){
+    background:#E4E8E8;
+}
+#header ul li:not(:nth-child(3)){
+    background:#fff;
+}
+#div.car{
+    width:1300px;
+    margin:0 auto;
+}
+#ambassador{
+    width:1200px;
+    height:600px;
+    padding:100px 50px ;
+    margin:0 auto;
+    background: url("images/ambassador.jpg");
+    background-size: 1300px 800px;
+}
+#ambassador div{
+    width:350px;
+    height:170px;
+    padding:25px;
+    background:#FAF4F2;
+    margin:290px 0;
+}
+#ambassador div h3{
+    margin:35px 0;
+}
+#ambassador div a{
+    text-align: center;
+    display: inline-block;
+    width:180px;
+    height:45px;
+    line-height:45px;
+    background:#000 ;
+    color:#fff;
+}
+#ambassador div a:hover{
+    background: #fff;
+    color: #000;
+}

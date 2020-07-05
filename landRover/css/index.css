@@ -1,0 +1,377 @@
+@font-face {
+font-family: 'FontAwesome';
+src:url('fonts/fontawesome-webfont.ttf'),url('fonts/fontawesome-webfont.eot'),url('fonts/fontawesome-webfont.ttf');
+}
+#header,#main,#footerbox,#footer,#connect{
+margin:0 auto;
+width:1300px;
+min-height:50px;
+}
+/*头部*/
+#header{
+width:1298px;
+height:70px;
+border:1px solid #ddd;
+}
+#header a.logo {
+display:inline-block;
+float:left;
+width:140px;
+height:70px;
+background:url("images/logo-large-2x.png");
+background-size:140px 70px;
+}
+#header>ul{
+border-top:1px solid #ddd;
+border-left:1px solid #ddd;
+float:left;
+height:70px;
+}
+#header>ul li{
+font-size:1.4em;
+float:left;
+width:165px;
+text-align:center;
+line-height:70px;
+border-right:1px solid #ddd;
+}
+#header>ul li>a{
+ display:inline-block;
+    width:100%;
+    height:100%;
+}
+#header>ul li:hover{
+background:#E4E8E8;
+}
+#header>ul li.hover{
+background:#E4E8E8;
+}
+#header>ul li a{
+color:#000;
+}
+#header div.search{
+width:160px;
+height:70px;
+float:left;
+text-align:center;
+position:relative;
+
+}
+#header div.search input{
+width:125px;
+padding-left: 5px;
+height:25px;
+border:1px solid #ddd;
+outline:none;
+font-size:1.1em;
+font-family: "microsoft yahei";
+}
+#header div.search span{
+font-family:"FontAwesome";
+font-size:1.4em;
+line-height:70px;
+padding-left:2px;
+}
+#header div.search span:before{
+content: '\f002';
+}
+#header div.search ul{
+   position: absolute;
+    left:26px;
+    top:50px;
+    background:#fff;
+    width:130px;
+    border:1px solid #ddd;
+    z-index: 999;
+    font-size:1.0em;
+}
+#header div.search ul li{
+    text-align:left;
+    background:#fff;
+    padding:5px 0 5px 5px;
+}
+#header div.search ul li:hover{
+    cursor:pointer;
+    background:#E4E8E8;
+}
+#header div.search ul li a{
+    color:#4A4F54;
+    font-size:1.1em;
+}
+/**图片轮播**/
+#banner{
+width:1300px;
+height:733px;
+margin:0 auto;
+position:relative;
+overflow:hidden;
+}
+#imgs{
+width:7800px;
+height:731px;
+position:absolute;
+left:0px;
+top:0;
+}
+#imgs li{
+float:left;
+width:1300px;
+}
+#imgs li img{
+width:100%;
+}
+#banner #index{
+position:absolute;
+bottom:20px;
+left:50px;
+}
+#banner #index li{
+color:#4A4F54;
+font-size:1.2em;
+display:inline-block;
+padding:0 5px;
+cursor:pointer;
+}
+#banner #index li.hover{
+color:#fff;
+font-size:1.7em;
+}
+#banner span.down{
+font-family:"FontAwesome";
+color:#fff;
+background:#000;
+padding:5px 3px;
+position:absolute;
+left:640px;
+bottom:2px;
+}
+#banner span.down:before{
+content: '\f063';
+}
+#banner span.down:hover{
+background:#fff;
+color:#000;
+cursor:pointer;
+}
+/**主题部分**/
+#main{
+width:1300px;
+padding:30px 0px 0 0px;
+}
+#main div.allType h2,#main div.bandStroy h2{
+text-align:center;
+}
+#main div.allType h2 span,#main div.bandStory h2 span{
+padding:3px;
+border-top:2px solid #000;
+border-bottom:2px solid #000;
+}
+#main div.allType ul,#main div.moreInfo ul,#main div.bandStory ul{
+margin:30px 0;
+overflow:hidden;
+}
+#main div.allType ul li.type,#main div.moreInfo ul li.info,#main div.bandStory ul li.band{
+float:left;
+width:413px;
+padding:0 10px;
+text-align:left;
+margin:10px 0;
+position:relative;
+    top:0;
+    left:0;
+}
+#main div.allType ul li.type img,#main div.moreInfo ul li.info img,#main div.bandStory ul li.band img{
+width:100%;
+}
+#main div.allType ul li.type h3,#main div.moreInfo ul li.info h3,#main div.bandStory ul li.band h3{
+margin:15px 0;
+}
+#main div.allType ul li.type p,#main div.bandStory ul li.band p{
+color:#4A4F54;
+}
+#main div.allType ul li.type a,#main div.moreInfo ul li.info a,#main div.bandStory ul li.band a{
+display:inline-block;
+margin:15px 0;
+color:#898C8F;
+font-weight:bold;
+}
+#main div.allType ul li.type a:hover,#main div.bandStory ul li.band a:hover{
+color:#4A4F54;
+}
+/**遮罩层**/
+.shade{
+    width:413px ;
+    height:273px;
+    background:#000;
+    position:absolute;
+    top:0;
+    left:10px;
+    opacity:0.3;
+}
+    /**更多了解**/
+#main div.moreInfo{
+background:#4A4F54;
+padding:30px 10px;;
+}
+#main div.moreInfo ul li.info{
+width:300px;
+}
+#main div.moreInfo ul li.info h3{
+color:#fff;
+}
+#main div.moreInfo ul li.info p{
+font-weight:bold;
+color:#ccc;
+}
+#main div.moreInfo ul li.info a:hover{
+color:#ccc;
+}
+/**品牌故事**/
+#main div.bandStory{
+background:#E9ECEC;
+padding:30px 10px;
+text-align:center;
+}
+#main div.bandStory ul li.band{
+width:620px;
+}
+/**经销商**/
+#main div.dealer{
+height:433px;
+background:url("images/Dealership.jpg");
+background-size:1300px 433px;
+}
+#main div.dealer div{
+width:370px;
+height:200px;
+padding:20px;
+background:#ECECEB;
+border:1px solid #fff;
+margin:0 auto;
+position:relative;
+top:96px;
+text-align:center;
+}
+#main div.dealer div h1{
+font-size:2.5em;
+}
+#main div.dealer div p{
+font-size:1.2em;
+margin:20px 0;
+color:#4A4F54;
+font-weight:600;
+}
+#main div.dealer div a{
+display:inline-block;
+font-size:1.2em;
+font-weight:bold;
+width:140px;
+height:45px;
+line-height:45px;
+background:#000;
+color:#fff;
+outline:none;
+border:0;
+}
+#main div.dealer div a:hover{
+background:#fff;
+color:#000;
+}
+/**footerbox***/
+#footerbox{
+background:#4A4F54;
+}
+#footerbox ul,#footer ul{
+height:50px;
+padding:0 135px;
+}
+#footerbox ul li,#footer ul li{
+float:left;
+width:200px;
+text-align:center;
+line-height:50px;
+}
+#footerbox ul li a{
+color:#fff;
+}
+#footer ul{
+padding:0 0 0 30px;
+}
+#footer ul li{
+text-align:left;
+width:15%;
+}
+#footer ul li:first-child img{
+vertical-align:middle;
+}
+#footer ul li:first-child span{
+font-family:"FontAwesome";
+}
+#footer ul li:first-child span:before{
+content:" \f106 ";
+}
+#footer ul li a{
+color:#4A4F54;
+}
+/*F0D1  F02D F118 F003*/
+#connect{
+    width:1200px;
+    height:120px;
+   padding:30px 50px;
+    color:#0C121C;
+}
+#connect ul{
+    width:100%;
+    height:90%;
+}
+#connect ul li{
+    float:left;
+    width:250px;
+    padding-left:50px;
+    height:100px;
+}
+#connect ul li h1{
+    font-family:"FontAwesome";
+   font-weight: normal;
+    font-size: 3em;
+}
+#connect ul li:nth-child(1)>h1:before{
+    content: "\f0d1";
+}
+#connect ul li:nth-child(2)>h1:before{
+    content: "\f02d";
+}
+#connect ul li:nth-child(3)>h1:before{
+    content: "\f118";
+}
+#connect ul li:nth-child(4)>h1:before{
+    content: "\f003";
+}
+#connect ul li h1, #connect ul li h3, #connect ul li h4{
+margin:5px 0;
+}
+#connect ul li h4 a{
+    color:#606468;
+}
+/**悬浮窗口（查看经销商，预约试驾）**/
+#suspend{
+    width:100px;
+    background:#000;
+    color:#fff;
+    position: fixed;
+    top:50%;
+    right:0px;
+    margin-top: -50px;
+}
+#suspend li a{
+    display:inline-block;
+    width:100px;
+    height:30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ddd;
+    color:#fff;
+}
+#suspend li a:hover{
+    color:#000;
+    background: #ddd;
+}

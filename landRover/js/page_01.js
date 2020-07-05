@@ -1,0 +1,20 @@
+/**
+ * Created by Administrator on 2016/9/14.
+ */
+/**头部底部php加载**/
+$("#header").load("data/01_header.php",function(){
+    /*header>li添加点击事件*/
+    $("#header").on("click","li",function(){
+        $(this).addClass("hover")
+            .siblings(".hover").removeClass("hover");
+    });
+});
+$("#allFooter").load("data/02_footer.php",function(){
+	$("#connect").remove();
+});
+$("#carsView").on("mouseenter","li.view",function(){
+    $(this).children("div").addClass("show");
+});
+$("#carsView").on("mouseleave","li.view",function(){
+    $(this).children("div.show").removeClass("show");
+});

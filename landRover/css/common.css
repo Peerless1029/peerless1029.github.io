@@ -1,0 +1,27 @@
+body{
+font:14px "microsoft yahei",Arial,Helvetica,sans-serif;
+color:#000;
+margin:0;
+padding:0;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,dl,dd,dt{
+margin:0;
+padding:0;
+list-style:none;
+border:none;
+}
+input{
+border:none;
+}
+.lf{
+float:left;
+}
+.rt{
+float:right;
+}
+.clear{
+clear:both;
+}
+a{
+text-decoration:none;
+}

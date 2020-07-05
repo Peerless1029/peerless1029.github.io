@@ -1,0 +1,363 @@
+/**路虎揽胜css**/
+#rangerRover,div.navbar,#gerry,div.car,#design,#hybrid,#parameter,#innovate,
+#assoc,#choose{
+    width:1300px;
+    min-height:40px;
+    margin:0 auto;
+}
+#header ul li:nth-child(1){
+    background:#E4E8E8;
+}
+#header ul li:not(:nth-child(1)){
+    background:#fff;
+}
+.navbar{
+    height:40px;
+}
+.navbar ul{
+    overflow: hidden;
+    background:#E4E8E8;
+}
+.navbar ul li{
+    float:left;
+    height:40px;
+}
+.navbar ul li a{
+    display:inline-block;
+    //width:100%;
+    //height:40px;
+    padding:0 25px;
+    line-height:40px;
+    color: #373C44;
+}
+.navbar ul li a.current{
+    background: #F8F9F9;
+}
+.navbar ul li:first-child a{
+    font-family:"FontAwesome";
+}
+.navbar ul li:first-child a:after{
+    content:"  \f107";
+}
+/*滑动效果*/
+#slideOut{
+    width:1300px;
+    height:731px;
+    overflow:hidden;
+    position:relative;
+}
+#slideOut ul.slidePic{
+    width:600%;
+    height:100%;
+    margin-left:0px;
+}
+#slideOut ul.slidePic li{
+    float:left;
+    width:1300px;
+    height:100%;
+}
+#slideOut ul.slidePic li img,#slideOut ul.slidePic li video{
+    width:100%;
+    height:100%;
+}
+#slideOut ul.indexNumber{
+    position:absolute;
+    bottom:20px;
+    left:50px;
+}
+#slideOut ul.indexNumber li{
+    color:#4A4F54;
+    font-size:1.2em;
+    display:inline-block;
+    padding:0 5px;
+    cursor:pointer;
+}
+#slideOut ul.indexNumber li.on{
+    color:#fff;
+    font-size:1.7em;
+}
+#slideOut span.down{
+    font-family:"FontAwesome";
+    color:#fff;
+    background:#000;
+    padding:5px 3px;
+    position:absolute;
+    left:640px;
+    bottom:0px;
+}
+#slideOut span.down:before{
+    content: '\f063';
+}
+#slideOut span.down:hover{
+    background:#fff;
+    color:#000;
+    cursor:pointer;
+}
+/**gerry部分**/
+#gerry{
+    width:1200px;
+    height:250px;
+    padding:50px;
+    background:#4A4F54;
+    color:#E4E8E8;
+}
+#gerry div.left,#gerry ul{
+    float:left;
+    width:50%;
+    height:100%;
+}
+#gerry div.left h1{
+    font-size:2.5em;
+    font-weight:400;
+    letter-spacing:5px;
+    text-align: justify;
+    margin-bottom:10px;
+}
+#gerry div.left h3{
+    margin:5px 0;
+}
+#gerry ul li{
+    width:280px;
+    height:105px;
+    padding:10px;
+    float:left;
+}
+#gerry ul li h3{
+    color:#fff;
+    margin-bottom:25px;
+}
+#gerry ul li p{
+    color:#DFE3E3;
+   font-weight:bold;
+}
+/**设计部分**/
+div.car{
+    width:1300px;
+    overflow:hidden;
+    height:600px;
+    position: relative;
+}
+div.car ul{
+    width:7800px;
+    height:100%;
+    position: absolute;
+    left:0;
+}
+div.car ul li.design{
+    float:left;
+  height:600px;
+    overflow: hidden;
+}
+div.car ul li.design div.left{
+    float:left;
+    width:350px;
+    padding:50px;
+    height:500px;
+    background:#E9ECEC;
+}
+div.car ul li.design  div.left h3{
+    margin:30px 0;
+}
+div.car ul li.design  div.left h2{
+    margin:30px 0;
+}
+div.car ul li.design  div.left a{
+    display: inline-block;
+    padding:5px 15px;
+    background: #000;
+    color:#fff;
+    margin:30px;
+}
+div.car ul li.design div.left a:hover{
+    background: #fff;
+    color:#000;
+}
+div.car ul li.design  div.right{
+    float:left;
+    width:850px;
+    height:600px;
+}
+div.car ul li.design div.right img{
+    width:120%;
+    height:100%;
+}
+/**按钮样式**/
+.arrow{
+    position: absolute;
+    bottom:50px;
+    left:50px;
+}
+.arrow button{
+    display:inline-block;
+    width:30px;
+    height:25px;
+    outline:none;
+    background:#b1bcc9;
+    border:1px solid #46F789;
+}
+.arrow button.noSlide{
+    background:#373C44;
+}
+/**混合动力部分**/
+#hybrid,#innovate,#assoc,#choose{
+    width: 1200px;
+    height:450px;
+    background: #F8F9F9;
+    padding:50px 50px 0 50px;
+}
+#hybrid h1,#innovate h1,#parameter>h1,#assoc>h1,#choose>h1{
+    text-align:center;
+    margin-bottom:50px;
+    height:40px;
+    line-height:40px;
+    padding:5px 0;
+}
+#hybrid h1 span,#innovate h1 span,#parameter h1 span,#assoc h1 span
+,#choose h1 span{
+    border-top:2px solid #000;
+    border-bottom:2px solid #000;
+}
+#hybrid ul{
+    width:100%;
+    height:300px;
+}
+#hybrid ul li,#innovate ul li,#parameter ul li,#assoc ul li,#choose ul.choosetype>li{
+    float:left;
+    width:280px;
+    //height:100%;
+    padding:0 10px;
+}
+#hybrid ul li img,#choose ul.choosetype li img{
+    width:280px;
+    height:180px;
+}
+#hybrid ul li h3,#innovate ul li h3{
+   margin:15px 0 30px 0;
+}
+#hybrid ul li a{
+    color:#373C44;
+}
+#hybrid ul li a:hover{
+    color:#4A4F54;
+}
+/***性能部分*/
+#hybrid+div.car ul{
+    width:5200px;
+}
+/**创新部分**/
+#innovate{
+    height: 600px;
+}
+#innovate ul{
+    width: 100%;
+    height:500px;
+}
+#innovate ul li,#assoc ul li{
+    width:380px;
+}
+#innovate ul li img,#assoc ul li img{
+    width:100%;
+}
+#innovate ul li p,#assoc ul li p{
+  color:#53575C;
+}
+/*参数部分*/
+#parameter,#choose{
+    background: #4A4F54;
+    height:460px;
+    padding:50px;
+    width:1200px;
+    color:#E4E8E8;
+}
+#parameter ul{
+    overflow: hidden;
+}
+#parameter ul li h1{
+    border-bottom:2px solid #A4A7A9;
+    border-top:2px solid #A4A7A9;
+    margin:30px 0;
+    height:100px;
+    line-height:100px;
+}
+#parameter ul li h1 b{
+    font-size:1.9em;
+}
+#parameter>h4,#assoc>h4{
+    text-align: center;
+    margin-top:50px;
+}
+#parameter h4 a,#assoc h4 a{
+    display: inline-block;
+    width:200px;
+    height:45px;
+    line-height:45px;
+    background: #fff;
+    color: #000;
+}
+#parameter h4 a:hover,#assoc h4 a:hover{
+    background: #000;
+    color: #fff;
+}
+#parameter h1 span{
+    border-color:#fff;
+}
+/*选项附件部分*/
+#assoc{
+    background: #E9ECEC;
+    height:auto;
+    padding:50px
+}
+#assoc ul{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+#assoc>h1{
+    margin-bottom:30px;
+ }
+#assoc>h2{
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+#assoc ul li h3{
+    margin:25px 0px;
+}
+#assoc ul li p{
+    margin-bottom: 30px;
+}
+#assoc h4 a{
+    background: #000;
+    color: #fff;
+}
+#assoc h4 a:hover{
+    background: #fff;
+    color: #000;
+}
+/**选择部分**/
+#choose{
+    height:800px;
+}
+#choose ul.choosetype li a{
+    color:#93979A;
+}
+#choose ul.choosetype li a:hover{
+    color:#E4E8E8;
+}
+#choose ul.choosetype li h2,#choose ul.choosetype li h3{
+    padding:20px 0;
+}
+#choose ul.choosetype li p a{
+    display:inline-block;
+    margin:10px 0;
+    font-weight: bold;
+}
+#choose ul.subcate li{
+    margin:10px 0;
+    font-weight: bold;
+}
+#choose ul.subcate{
+    height:260px;
+    border-bottom:1px solid #A4A7A9;
+}
+

@@ -1,0 +1,113 @@
+div.navbar,#financePlan,div.plan{
+    width:1300px;
+    min-height:40px;
+    margin:0 auto;
+}
+#header ul li:nth-child(2){
+    background:#E4E8E8;
+}
+#header ul li:not(:nth-child(2)){
+    background:#fff;
+}
+/**金融方案部分**/
+#financePlan{
+    height:200px;
+    background:#4A4F54;
+    color:#fff;
+    text-align:center;
+}
+#financePlan h1{
+    font-size:2.5em;
+    height:200px;
+    line-height:200px;
+}
+.plan{
+    height:600px;
+    position:relative;
+}
+.plan ul.left{
+    float:left;
+    width:350px;
+    height:500px;
+    padding:50px;
+    background:#E4E8E8;
+}
+.plan ul.left h2{
+    margin-bottom: 20px;
+}
+.plan ul.left li:nth-child(3) a{
+    display: inline-block;
+    padding:10px 30px ;
+    background: #000;
+    color:#fff;
+    margin:50px 0;
+}
+.plan ul.left li:nth-child(3) a:hover{
+    background: #fff;
+    color:#000;
+}
+.plan ul.left li:nth-child(4) a,.plan a.planDetails{
+    color:#8B9194;
+    font-weight: bold;
+}
+.plan ul.left li:nth-child(4) a:hover,.plan a.planDetails{
+    color:#4A4F54;
+}
+.plan div.right{
+   margin-left: 450px;
+    height:100%;
+    position: relative;
+    z-index: 10;
+    background:#F8F9F9;
+}
+.plan div.right img{
+    width:850px;
+    height:330px;
+}
+.plan div.right ul{
+   padding:50px;
+}
+.plan div.right h1{
+    height: 100px;
+    line-height:100px;
+}
+.plan div.right h1 b{
+   font-size: 2em;
+}
+.plan a.planDetails{
+    display: inline-block;
+    margin-top:30px;
+}
+.plan div.details{
+    color:#fff;
+    width:750px;
+    height:500px;
+    padding:50px;
+    position: absolute;
+    top:0;
+    right:0;
+    z-index:20;
+    background: #000;
+    opacity: 0.8;
+    display: none;
+}
+.plan div.details p{
+    margin:30px 0;
+}
+.plan div.details span{
+    position: absolute;
+    top:30px;
+    right:30px;
+    font-size: 3em;
+    cursor: pointer;
+}
+#plans div.plan:nth-child(2) ul.left,
+#plans div.plan:nth-child(4) ul.left{
+    background:#4A4F54;
+    color:#fff;
+}
+#plans div.plan:nth-child(2) ul.left a:hover,
+#plans div.plan:nth-child(4) ul.left a:hover{
+    color:#fff;
+}
+

@@ -1,0 +1,70 @@
+#header ul li:nth-child(1){
+    background:#E4E8E8;
+}
+#header ul li.hover{
+    background:#E4E8E8;
+}
+#carsView {
+    width: 1300px;
+    height: 920px;
+    margin: 0 auto;
+}
+#carsView ul{
+    width:1299px;
+    height:920px;
+    overflow:hidden;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
+#carsView ul li.view{
+    float:left;
+    width:432px;
+    height:460px;
+    text-align:center;
+    border-left:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    overflow: hidden;
+    position: relative;
+    top:0;
+    left:0;
+}
+#carsView ul li.view img {
+    width:105%;
+    height:300px;
+}
+#carsView ul li.view h3 {
+    margin:25px 0 20px 0;
+}
+#carsView ul li.view h3 span{
+    padding:3px 0;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+#carsView ul li.view p {
+    margin:5px 0;
+    color:#4A4F54;
+}
+#carsView ul li.view a {
+    float:left;
+    display: inline-block;
+    width:50%;
+    height:42px;
+    line-height:42px;
+    border-top:1px solid #ddd;
+    color:#898C8F;
+}
+#carsView ul li.view a.lefta{
+    margin-left:-1px;
+    border-right:1px solid #ddd;
+    font-weight:bold;
+}
+/*遮罩层*/
+#carsView ul li.view div.show{
+    width:433px;
+    height:300px;
+    position: absolute;
+    top:0;
+    left:0;
+    background:#000;
+    opacity: 0.3;
+}

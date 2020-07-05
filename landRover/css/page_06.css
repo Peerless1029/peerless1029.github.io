@@ -1,0 +1,85 @@
+#header ul li:nth-child(6){
+    background:#E4E8E8;
+}
+#header ul li:not(:nth-child(6)){
+    background:#fff;
+}
+#sencondHand{
+    width:1300px;
+    height:auto;
+    margin:0 auto;
+}
+/**志在千里部分**/
+div.trip{
+    width:100%;
+    height:700px;
+    color:#4A4F54;
+}
+div.trip div.left{
+    float:left;
+    width:280px;
+    height:600px;
+    padding:50px;
+    background:#E9ECEC;
+}
+div.trip div.left h2{
+    margin:30px 0;
+    color:#000;
+}
+div.trip.response div.left h2 span{
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+div.trip div.left a{
+    margin-top:30px;
+    display:inline-block;
+    padding:12px 30px;
+    background:#000;
+    color:#fff;
+}
+div.trip div.left a:hover{
+    background:#fff;
+    color:#000;
+}
+div.trip div.right{
+    float:left;
+    width:920px;
+    height:700px;
+    overflow: hidden;
+    position: relative;
+}
+div.trip div.right img{
+    width:110%;
+    height:100%;
+}
+/**路虎认证部分**/
+div.ldprove{
+    width:1200px;
+    height:160px;
+    padding:90px 50px;
+    background:#F8F9F9;
+}
+div.ldprove h3{
+    text-align:center;
+    margin-bottom:20px;
+}
+div.ldprove ul{
+    width:510px;
+    height:60px;
+    padding:10px;
+    background: #E4E8E8;
+    margin:0 auto;
+    color:#884F58;
+}
+div.ldprove ul li{
+     float:left;
+     width:155px;
+     padding-left:15px;
+     height:30px;
+     line-height:30px;
+ }
+div.ldprove ul li:nth-child(1),
+div.ldprove ul li:nth-child(2),
+div.ldprove ul li:nth-child(3){
+    border-bottom: 1px solid #A4A7A9;
+}

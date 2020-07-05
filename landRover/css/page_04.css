@@ -1,0 +1,216 @@
+#header ul li:nth-child(4){
+    background:#E4E8E8;
+}
+#header ul li:not(:nth-child(4)){
+    background:#fff;
+}
+#brand{
+    width:1300px;
+    height:auto;
+    margin:0 auto;
+}
+/**品牌故事**/
+#founder{
+    width:1300px;
+    color:#4A4F54;
+    background:#F8F9F9;
+}
+#founder div{
+    width:400px;
+    height:100px;
+    margin:0px auto;
+    padding:50px 0;
+}
+#founder p{
+    font-size:0.9em;
+    margin-top:20px;
+}
+#founder ul{
+    width:1200px;
+    padding:50px;
+    height:80px;
+    background: #E9ECEC;
+}
+#founder ul li{
+    float:left;
+    width:270px;
+    margin-right:30px;
+}
+#founder ul li h3{
+    color:#000;
+}
+/**起源**/
+#origin{
+    width: 1200px;
+    padding:50px;
+    height:220px;
+    background: url("images/origin.jpg");
+    background-size: 1300px 320px;
+}
+#origin div{
+    width:220px;
+    padding:10px;
+    height:80px;
+    margin-top:60px;
+    background: #F0F0F0;
+}
+#origin div p{
+    margin:10px 0;
+    color:#4A4F54;
+    font-size:0.9em;
+}
+/**品牌历史**/
+#history{
+    width:100%;
+    height:auto;
+}
+ div.trip{
+    width:100%;
+    height:700px;
+    color:#4A4F54;
+}
+div.trip div.left{
+    float:left;
+    width:280px;
+    height:600px;
+    padding:50px;
+    background:#F8F9F9;
+}
+ div.trip div.left h2{
+  margin:30px 0;
+}
+div.trip div.left a{
+    margin-top:30px;
+    display:inline-block;
+     padding:12px 30px;
+    background:#000;
+    color:#fff;
+}
+ div.trip div.left a:hover{
+    background:#fff;
+    color:#000;
+}
+div.trip div.right{
+    float:left;
+    width:920px;
+    height:700px;
+    overflow: hidden;
+    position: relative;
+}
+div.trip div.right img{
+    width:110%;
+    height:100%;
+}
+div.trip div.right div.shadow{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    right:0;
+    background: #000;
+    opacity: 0.5;
+    display:none;
+}
+#history div.trip:nth-child(2) div.left,div.trip.response div.left{
+    background:#4A4F54;
+    color:#fff;
+}
+#history div.trip:nth-child(2) div.left h2 span,div.trip.response div.left h2 span{
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+#history div.trip:nth-child(2) div.right img.trip01{
+    width:100%;
+    height:60%;
+    position: relative;
+}
+#history div.trip:nth-child(2) div.right img.trip02{
+    padding:0;
+    margin:0;
+    width:457px;
+    height:40%;
+}
+/**我们的技术**/
+div.tech{
+    width:1200px;
+    height:auto;
+    padding:50px;
+   background:#E9ECEC;
+    overflow:hidden;
+}
+div.tech>h1{
+    text-align:center;
+}
+div.tech>h1 span{
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+}
+div.tech ul{
+   width:200%;
+    height:300px;
+    position:relative;
+    left:0px;
+    padding:50px 0;
+}
+div.tech ul li{
+    float:left;
+    width:360px;
+    padding:0 20px;
+    overflow: hidden;
+}
+div.tech ul li:nth-child(3){
+   margin-right: 50px;
+}
+div.tech ul li img{
+    width:100%;
+    height:100%;
+}
+div.tech ul li h4{
+    margin:20px 0;
+}
+div.tech ul li p{
+   color:#4A4F54;
+}
+/**按钮样式**/
+div.arrow{
+    margin-left:20px;
+}
+.arrow button{
+    display:inline-block;
+    width:30px;
+    height:25px;
+    outline:none;
+    background:#b1bcc9;
+    border:1px solid #46F789;
+}
+/**我们的探险**/
+#brand div.tech.explor{
+    background:#F8F9F9;
+}
+#brand div.tech.explor ul{
+   width:1200px;
+}
+#brand div.tech.explor ul li{
+    width:280px;
+    padding:0;
+    margin:0 10px;
+}
+#brand div.tech.explor ul li a{
+    margin-top:10px;
+    display:inline-block;
+    margin-top:10px;
+    color:#4A4F54;
+    font-weight:bold;
+}
+#brand div.tech.explor ul li a:hover{
+    color:#000;
+}
+/**责任部分**/
+div.trip.response div.left a{
+    background:#fff;
+    color:#000;
+}
+div.trip.response div.left a:hover{
+    background:#000;
+    color:#fff;
+}

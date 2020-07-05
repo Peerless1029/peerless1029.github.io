@@ -1,0 +1,82 @@
+#header ul li:nth-child(5){
+    background:#E4E8E8;
+}
+#header ul li:not(:nth-child(5)){
+    background:#fff;
+}
+/**客户服务**/
+#service{
+    width:1300px;
+    height:280px;
+    color:#4A4F54;
+    background:#F8F9F9;
+    margin:0 auto;
+}
+
+#service ul li p{
+    font-size:0.9em;
+    margin-top:20px;
+}
+#service ul li h3{
+    color:#000;
+}
+#service ul{
+    width:1200px;
+    height:180px;
+    padding:50px;
+    background: #E9ECEC;
+}
+#service ul li{
+    float:left;
+    width:270px;
+    margin-right:30px;
+}
+#service ul li a{
+    margin-top:10px;
+    display:inline-block;
+    margin-top:10px;
+    color:#4A4F54;
+    font-weight:bold;
+}
+#service  ul li a:hover{
+    color:#000;
+}
+/**查看经销商二手车服务**/
+#customer{
+    width:1300px;
+    margin:0 auto;
+    height: 580px;
+    background: #E9ECEC;
+}
+#customer h1{
+    width:1200px;
+    padding:0 50px;
+    height:60px;
+    line-height:60px;
+    color:#fff;
+    font-weight:normal;
+    background:#333;
+}
+#customer #saleNum{
+    width:650px;
+    height:500px;
+    border:1px solid #ddd;
+}
+#customer #agency{
+    float: right;
+    width:600px;
+    height:400px;
+    border:1px solid #ddd;
+}
+#customer #bMap{
+    width:600px;
+    height:300px;
+    border-bottom:1px solid #ddd;
+}
+#customer #result{
+    width:600px;
+    height:200px;
+    overflow: hidden;
+}
+
+
