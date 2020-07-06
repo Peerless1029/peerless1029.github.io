@@ -75,7 +75,7 @@
 			</ul>
 		</nav>
 		<nav>
-			总文章数 26
+			总文章数 29
 		</nav>
 		<nav class="header-smart-menu">
     		
@@ -164,6 +164,290 @@
           </div>
           <div id="js-content" class="content-ll">
             
+  
+    <article id="post-用原生JS从零到一实现Redux架构" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/04/28/%E7%94%A8%E5%8E%9F%E7%94%9FJS%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%80%E5%AE%9E%E7%8E%B0Redux%E6%9E%B6%E6%9E%84/">用原生JS从零到一实现Redux架构</a>
+    </h1>
+  
+
+
+        
+        <a href="/2019/04/28/%E7%94%A8%E5%8E%9F%E7%94%9FJS%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%80%E5%AE%9E%E7%8E%B0Redux%E6%9E%B6%E6%9E%84/" class="archive-article-date">
+  	<time datetime="2019-04-28T00:12:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-28</time>
+</a>
+
+        
+      </header>
+	  <!--div align="center" class="post-count">
+		字数：3.2k字 | 预计阅读时长：12分钟
+	  </div-->
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>博客迁移 <a href="https://www.cnblogs.com/peerless1029/p/10781391.html" target="_blank" rel="noopener">原博客园链接</a></p>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>最近利用业余时间阅读了胡子大哈写的《React小书》，从基本的原理讲解了React，Redux等等受益颇丰。眼过千遍不如手写一遍，跟着作者的思路以及参考代码可以实现基本的Demo，下面根据自己的理解和参考一些资料，用原生JS从零开始实现一个Redux架构。</p>
+        
+          <a class="article-more-a" href="/2019/04/28/%E7%94%A8%E5%8E%9F%E7%94%9FJS%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%80%E5%AE%9E%E7%8E%B0Redux%E6%9E%B6%E6%9E%84/#more">more >></a>
+        
+      
+
+      
+      <p style="font-size: 14px;color:#999;margin: 0;">
+        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2019/04/28/%E7%94%A8%E5%8E%9F%E7%94%9FJS%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%80%E5%AE%9E%E7%8E%B0Redux%E6%9E%B6%E6%9E%84/" class="pageViews">0</span>次
+      </p>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">博客园</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">React</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/04/28/%E7%94%A8%E5%8E%9F%E7%94%9FJS%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%80%E5%AE%9E%E7%8E%B0Redux%E6%9E%B6%E6%9E%84/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-页面性能优化-原生JS实现图片懒加载" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/04/25/%E9%A1%B5%E9%9D%A2%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-%E5%8E%9F%E7%94%9FJS%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E6%87%92%E5%8A%A0%E8%BD%BD/">页面性能优化-原生JS实现图片懒加载</a>
+    </h1>
+  
+
+
+        
+        <a href="/2019/04/25/%E9%A1%B5%E9%9D%A2%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-%E5%8E%9F%E7%94%9FJS%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E6%87%92%E5%8A%A0%E8%BD%BD/" class="archive-article-date">
+  	<time datetime="2019-04-25T14:55:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-25</time>
+</a>
+
+        
+      </header>
+	  <!--div align="center" class="post-count">
+		字数：1.5k字 | 预计阅读时长：6分钟
+	  </div-->
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>博客迁移 <a href="https://www.cnblogs.com/peerless1029/p/10771695.html" target="_blank" rel="noopener">原博客园链接</a></p>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>在项目开发中，我们往往会遇到一个页面需要加载很多图片的情况。我们可以一次性加载全部的图片，但是考虑到用户有可能只浏览部分图片。所以我们需要对图片加载进行优化，只加载浏览器窗口内的图片，当用户滚动时，再加载更多的图片。这种加载图片的方式叫做图片懒加载，又叫做按需加载或图片的延时加载。这样做的好处是：1.可以加快页面首屏渲染的速度；2.节约用户的流量。</p>
+        
+          <a class="article-more-a" href="/2019/04/25/%E9%A1%B5%E9%9D%A2%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-%E5%8E%9F%E7%94%9FJS%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E6%87%92%E5%8A%A0%E8%BD%BD/#more">more >></a>
+        
+      
+
+      
+      <p style="font-size: 14px;color:#999;margin: 0;">
+        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2019/04/25/%E9%A1%B5%E9%9D%A2%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-%E5%8E%9F%E7%94%9FJS%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E6%87%92%E5%8A%A0%E8%BD%BD/" class="pageViews">0</span>次
+      </p>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">博客园</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">HTML</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/04/25/%E9%A1%B5%E9%9D%A2%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-%E5%8E%9F%E7%94%9FJS%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E6%87%92%E5%8A%A0%E8%BD%BD/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-ES6之Promise学习与实践" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/12/23/ES6%E4%B9%8BPromise%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%AE%9E%E8%B7%B5/">ES6之Promise学习与实践</a>
+    </h1>
+  
+
+
+        
+        <a href="/2018/12/23/ES6%E4%B9%8BPromise%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%AE%9E%E8%B7%B5/" class="archive-article-date">
+  	<time datetime="2018-12-23T09:17:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-12-23</time>
+</a>
+
+        
+      </header>
+	  <!--div align="center" class="post-count">
+		字数：1.3k字 | 预计阅读时长：4分钟
+	  </div-->
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>博客迁移 <a href="https://www.cnblogs.com/peerless1029/p/10164858.html" target="_blank" rel="noopener">原博客园链接</a></p>
+<h4 id="1-前言"><a href="#1-前言" class="headerlink" title="1.前言"></a>1.前言</h4><p>在平时的业务开发中，前端通常需要请求后台获取数据，或者NodeJs读取文件等等一系列的异步操作，我们通常需要利用异步操作的结果或者对异步操作的结果进行处理。通常我们的解决方案是：在异步操作成功或者失败的回调函数里面写方法，在异步操作比较简单的时候这样写代码还是比较好理解的，当业务逐渐趋于复杂，这就形成了回调地狱，代码嵌套层数太多并且难以理解。不过，办法总是有的，可以使用ES6的新特性Promise来解决问题。</p>
+        
+          <a class="article-more-a" href="/2018/12/23/ES6%E4%B9%8BPromise%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%AE%9E%E8%B7%B5/#more">more >></a>
+        
+      
+
+      
+      <p style="font-size: 14px;color:#999;margin: 0;">
+        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2018/12/23/ES6%E4%B9%8BPromise%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%AE%9E%E8%B7%B5/" class="pageViews">0</span>次
+      </p>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">博客园</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/12/23/ES6%E4%B9%8BPromise%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%AE%9E%E8%B7%B5/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
   
     <article id="post-为什么设置overflow为hidden可以清除浮动带来的影响" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
@@ -643,290 +927,6 @@
 
 
   
-    <article id="post-WebRTC系列[1]-手把手教你实现一个浏览器拍照室Demo" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/11/13/WebRTC%E7%B3%BB%E5%88%97%5B1%5D-%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%8D%E7%85%A7%E5%AE%A4Demo/">WebRTC系列[1]手把手教你实现一个浏览器拍照室Demo</a>
-    </h1>
-  
-
-
-        
-        <a href="/2018/11/13/WebRTC%E7%B3%BB%E5%88%97%5B1%5D-%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%8D%E7%85%A7%E5%AE%A4Demo/" class="archive-article-date">
-  	<time datetime="2018-11-13T15:44:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-13</time>
-</a>
-
-        
-      </header>
-	  <!--div align="center" class="post-count">
-		字数：2k字 | 预计阅读时长：7分钟
-	  </div-->
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>博客迁移 <a href="https://www.cnblogs.com/peerless1029/p/9955640.html" target="_blank" rel="noopener">原博客园链接</a></p>
-<h4 id="1-WebRTC开发背景"><a href="#1-WebRTC开发背景" class="headerlink" title="1.WebRTC开发背景"></a>1.WebRTC开发背景</h4><p>由于业务需求，需要在项目中实现实时音视频通话功能，之前基于浏览器开发的Web项目要进行音视频通话，需要安装flash插件才能实现或者使用C/S客户端进行通信。随着互联网技术的驱动下，在很多场景下需要进行音视频通信，在生活中我们现在使用电话越来越少，使用微信和视频越来越多。在一些行业也需要进行音视频实时通信，如：在线教育，远程医疗，保险理赔等等。有了WebRTC，可以开发一些好的网页应用，
-        
-          <a class="article-more-a" href="/2018/11/13/WebRTC%E7%B3%BB%E5%88%97%5B1%5D-%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%8D%E7%85%A7%E5%AE%A4Demo/#more">more >></a>
-        
-      
-
-      
-      <p style="font-size: 14px;color:#999;margin: 0;">
-        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2018/11/13/WebRTC%E7%B3%BB%E5%88%97%5B1%5D-%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%8D%E7%85%A7%E5%AE%A4Demo/" class="pageViews">0</span>次
-      </p>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">WebRTC</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">博客园</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/11/13/WebRTC%E7%B3%BB%E5%88%97%5B1%5D-%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8B%8D%E7%85%A7%E5%AE%A4Demo/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-JavaScript引用类型之Array类型API详解" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/11/07/JavaScript%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E4%B9%8BArray%E7%B1%BB%E5%9E%8BAPI%E8%AF%A6%E8%A7%A3/">JavaScript引用类型之Array类型API详解</a>
-    </h1>
-  
-
-
-        
-        <a href="/2018/11/07/JavaScript%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E4%B9%8BArray%E7%B1%BB%E5%9E%8BAPI%E8%AF%A6%E8%A7%A3/" class="archive-article-date">
-  	<time datetime="2018-11-06T16:42:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-07</time>
-</a>
-
-        
-      </header>
-	  <!--div align="center" class="post-count">
-		字数：1.7k字 | 预计阅读时长：7分钟
-	  </div-->
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>博客迁移 <a href="https://www.cnblogs.com/peerless1029/p/9919908.html" target="_blank" rel="noopener">原博客园链接</a></p>
-<p>Array类型也是ECMASCRIPT中最常见的数据类型，而且数据的每一项可以保存任何类型的数值，而且数组的大小是可以动态调整的，可以随着数据的添加自动增长以容纳新的数据。下面，总结数据的一些常用方法：</p>
-        
-          <a class="article-more-a" href="/2018/11/07/JavaScript%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E4%B9%8BArray%E7%B1%BB%E5%9E%8BAPI%E8%AF%A6%E8%A7%A3/#more">more >></a>
-        
-      
-
-      
-      <p style="font-size: 14px;color:#999;margin: 0;">
-        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2018/11/07/JavaScript%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E4%B9%8BArray%E7%B1%BB%E5%9E%8BAPI%E8%AF%A6%E8%A7%A3/" class="pageViews">0</span>次
-      </p>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">博客园</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/11/07/JavaScript%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E4%B9%8BArray%E7%B1%BB%E5%9E%8BAPI%E8%AF%A6%E8%A7%A3/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-React的入门知识与概念【1】" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/10/26/React%E7%9A%84%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86%E4%B8%8E%E6%A6%82%E5%BF%B5%E3%80%901%E3%80%91/">React的入门知识与概念【1】</a>
-    </h1>
-  
-
-
-        
-        <a href="/2018/10/26/React%E7%9A%84%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86%E4%B8%8E%E6%A6%82%E5%BF%B5%E3%80%901%E3%80%91/" class="archive-article-date">
-  	<time datetime="2018-10-25T17:37:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-10-26</time>
-</a>
-
-        
-      </header>
-	  <!--div align="center" class="post-count">
-		字数：1.2k字 | 预计阅读时长：4分钟
-	  </div-->
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>博客迁移 <a href="https://www.cnblogs.com/peerless1029/p/9853823.html" target="_blank" rel="noopener">原博客园链接</a></p>
-<p>回顾在以往的项目开发中，从最初的使用的原生html+js+css+jquery开发，到后来随着项目功能的增加，也渐渐学习了Vue.js框架的开发，以及Vue.js的全家桶Axios,Vue-router等的使用。自己大概在两年前有过浅尝辄止地学习过React，由于在业务开发项目中没有太多的使用，很多API也逐渐的淡忘。最近，利用业余时间，以一个小白的身份重拾React，毕竟技多不压身嘛。下面，对React入门知识做一个总结。</p>
-        
-          <a class="article-more-a" href="/2018/10/26/React%E7%9A%84%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86%E4%B8%8E%E6%A6%82%E5%BF%B5%E3%80%901%E3%80%91/#more">more >></a>
-        
-      
-
-      
-      <p style="font-size: 14px;color:#999;margin: 0;">
-        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2018/10/26/React%E7%9A%84%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86%E4%B8%8E%E6%A6%82%E5%BF%B5%E3%80%901%E3%80%91/" class="pageViews">0</span>次
-      </p>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">博客园</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">React</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/10/26/React%E7%9A%84%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86%E4%B8%8E%E6%A6%82%E5%BF%B5%E3%80%901%E3%80%91/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/page/2/">Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/4/">Next</a>
@@ -1088,11 +1088,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">React</a>
+                <a href="javascript:void(0)" class="js-tag color4">Vue</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Vue</a>
+                <a href="javascript:void(0)" class="js-tag color1">React</a>
               </li>
              
               <li class="article-tag-list-item">

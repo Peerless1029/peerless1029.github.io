@@ -75,7 +75,7 @@
 			</ul>
 		</nav>
 		<nav>
-			总文章数 26
+			总文章数 29
 		</nav>
 		<nav class="header-smart-menu">
     		
@@ -164,6 +164,311 @@
           </div>
           <div id="js-content" class="content-ll">
             
+  
+    <article id="post-重学前端-JavaScript篇" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/07/07/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-JavaScript%E7%AF%87/">重学前端-JavaScript篇</a>
+    </h1>
+  
+
+
+        
+        <a href="/2020/07/07/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-JavaScript%E7%AF%87/" class="archive-article-date">
+  	<time datetime="2020-07-06T16:22:59.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-07</time>
+</a>
+
+        
+      </header>
+	  <!--div align="center" class="post-count">
+		字数：0字 | 预计阅读时长：1分钟
+	  </div-->
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+
+      
+      <p style="font-size: 14px;color:#999;margin: 0;">
+        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2020/07/07/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-JavaScript%E7%AF%87/" class="pageViews">0</span>次
+      </p>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/07/07/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-JavaScript%E7%AF%87/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-重学前端-CSS篇" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/07/07/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-CSS%E7%AF%87/">重学前端-CSS篇</a>
+    </h1>
+  
+
+
+        
+        <a href="/2020/07/07/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-CSS%E7%AF%87/" class="archive-article-date">
+  	<time datetime="2020-07-06T16:21:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-07</time>
+</a>
+
+        
+      </header>
+	  <!--div align="center" class="post-count">
+		字数：490字 | 预计阅读时长：1分钟
+	  </div-->
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="资料参考"><a href="#资料参考" class="headerlink" title="资料参考"></a>资料参考</h3><p>1.<a href="https://juejin.im/post/5c64d15d6fb9a049d37f9c20" target="_blank" rel="noopener">中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上)</a></p>
+<h4 id="1-盒模型"><a href="#1-盒模型" class="headerlink" title="1.盒模型"></a>1.盒模型</h4><p>页面渲染时，dom元素所采用的布局模型。可通过<code>box-sizing</code>进行设置。根据计算宽高的区域可分为：</p>
+<ul>
+<li><code>content-box</code>（W3C标准盒模型）</li>
+<li><code>border-box</code> （IE盒模型）</li>
+<li><code>padding-box</code> （FireFox曾经支持）</li>
+<li><code>margin-box</code> (浏览器未实现)<br><img src="imgs/css/01.png" alt="css01"></li>
+</ul>
+<h4 id="2-BFC"><a href="#2-BFC" class="headerlink" title="2.BFC"></a>2.BFC</h4><p><strong>块级格式化上下文（<code>block formatting context</code>）</strong> ，是一个独立的区域，让处于BFC内部的元素与外部元素相互隔离，使内外元素的定位不会相互影响。</p>
+<p>表现规则：如果一个元素具有BFC，内部子元素再怎么翻江倒海，翻云覆雨，都不会影响外部的元素。所以，BFC元素是不可能发生margin重叠的，因为margin重叠是会影响到外面元素的；BFC元素也可以用来清除浮动带来的影像，因为如果不清除，子元素浮动则父元素高度塌陷，必然会影响后面元素的布局和定位，这显然有违BFC元素的子元素不会影响外部元素的设定。</p>
+<p>触发条件：</p>
+<ul>
+<li><code>html</code>根元素</li>
+<li><code>float</code>的值不为<code>none</code></li>
+<li><code>overflow</code>的值为auto scroll hidden</li>
+<li><code>display</code>的值为table-cell table-caption inline-block的任何一个</li>
+<li><code>position</code>的值不为relative static</li>
+</ul>
+<h4 id="3-居中布局"><a href="#3-居中布局" class="headerlink" title="3.居中布局"></a>3.居中布局</h4><ul>
+<li><p>水平居中</p>
+<ul>
+<li>行内元素：<code>text-align:center</code></li>
+<li>块级元素：<code>margin: 0 auto</code></li>
+<li><code>absolute+transform</code></li>
+<li><code>flex+justify-content:center</code></li>
+</ul>
+</li>
+<li><p>垂直居中</p>
+<ul>
+<li><code>line-height:height</code></li>
+<li><code>absolute + transform</code></li>
+<li><code>flex + align-items:center</code></li>
+</ul>
+</li>
+<li><p>水平垂直居中</p>
+<ul>
+<li><code>absolute+transform</code></li>
+<li><code>flex + justify-content + align-items</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="4-选择器优先级"><a href="#4-选择器优先级" class="headerlink" title="4.选择器优先级"></a>4.选择器优先级</h4><ul>
+<li><code>!important</code> &gt; 行内样式 &gt; <code>#id</code> &gt; <code>.class</code> &gt; <code>tag</code> &gt; * &gt; 继承 &gt; 默认</li>
+<li>选择器<strong>从右到左</strong>解析（<a href="https://blog.csdn.net/jinboker/article/details/52126021" target="_blank" rel="noopener">为什么CSS选择器是从右往左解析</a>）</li>
+</ul>
+<h4 id="5-去除浮动带来的影像，防止父级高度塌陷"><a href="#5-去除浮动带来的影像，防止父级高度塌陷" class="headerlink" title="5.去除浮动带来的影像，防止父级高度塌陷"></a>5.去除浮动带来的影像，防止父级高度塌陷</h4><ul>
+<li>创建父级BFC</li>
+<li>父级设置高度</li>
+<li>通过增加尾元素清除浮动<ul>
+<li>:after / <br> :clear:both</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-link与-import的区别"><a href="#6-link与-import的区别" class="headerlink" title="6.link与@import的区别"></a>6.link与@import的区别</h4>
+      
+
+      
+      <p style="font-size: 14px;color:#999;margin: 0;">
+        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2020/07/07/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-CSS%E7%AF%87/" class="pageViews">0</span>次
+      </p>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">CSS</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/07/07/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-CSS%E7%AF%87/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-重学前端-HTML篇" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/07/07/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-HTML%E7%AF%87/">重学前端-HTML篇</a>
+    </h1>
+  
+
+
+        
+        <a href="/2020/07/07/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-HTML%E7%AF%87/" class="archive-article-date">
+  	<time datetime="2020-07-06T16:20:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-07</time>
+</a>
+
+        
+      </header>
+	  <!--div align="center" class="post-count">
+		字数：0字 | 预计阅读时长：1分钟
+	  </div-->
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+
+      
+      <p style="font-size: 14px;color:#999;margin: 0;">
+        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2020/07/07/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-HTML%E7%AF%87/" class="pageViews">0</span>次
+      </p>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">HTML</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/07/07/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-HTML%E7%AF%87/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
   
     <article id="post-入手人生第一台相机佳能M50" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
@@ -620,284 +925,6 @@
 
 
   
-    <article id="post-JS高程-教你写出可维护的代码" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/11/12/JS%E9%AB%98%E7%A8%8B-%E6%95%99%E4%BD%A0%E5%86%99%E5%87%BA%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84%E4%BB%A3%E7%A0%81/">《JS高程》-教你如何写出可维护的代码</a>
-    </h1>
-  
-
-
-        
-        <a href="/2019/11/12/JS%E9%AB%98%E7%A8%8B-%E6%95%99%E4%BD%A0%E5%86%99%E5%87%BA%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84%E4%BB%A3%E7%A0%81/" class="archive-article-date">
-  	<time datetime="2019-11-12T15:17:30.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-12</time>
-</a>
-
-        
-      </header>
-	  <!--div align="center" class="post-count">
-		字数：3.1k字 | 预计阅读时长：11分钟
-	  </div-->
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="1、前言"><a href="#1、前言" class="headerlink" title="1、前言"></a>1、前言</h3><p>&emsp;&emsp;在平时工作开发中，大部分开发人员都花费大量的时间在维护其他人员的代码。很难从头开始开发新代码，很多情况下都是以他人成果为基础的，或者新增修改需求，自己写的代码也会被其他开发人员调用，所以写好一份高质量可维护的代码就显得十分重要。</p>
-<h3 id="2、什么是可维护代码"><a href="#2、什么是可维护代码" class="headerlink" title="2、什么是可维护代码"></a>2、什么是可维护代码</h3><p>可维护代码需要遵循以下几个特点。</p>
-<p>1.<strong>可理解性</strong>-其他人可以接手代码并理解它的意图和一般途径。<br>2.<strong>直观性</strong>-代码中的东西一看就明白，不管其操作过程有多复杂。</p>
-        
-          <a class="article-more-a" href="/2019/11/12/JS%E9%AB%98%E7%A8%8B-%E6%95%99%E4%BD%A0%E5%86%99%E5%87%BA%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84%E4%BB%A3%E7%A0%81/#more">more >></a>
-        
-      
-
-      
-      <p style="font-size: 14px;color:#999;margin: 0;">
-        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2019/11/12/JS%E9%AB%98%E7%A8%8B-%E6%95%99%E4%BD%A0%E5%86%99%E5%87%BA%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84%E4%BB%A3%E7%A0%81/" class="pageViews">0</span>次
-      </p>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">HTML</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/11/12/JS%E9%AB%98%E7%A8%8B-%E6%95%99%E4%BD%A0%E5%86%99%E5%87%BA%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84%E4%BB%A3%E7%A0%81/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-双十一DIY装机记" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/11/11/%E5%8F%8C%E5%8D%81%E4%B8%80DIY%E8%A3%85%E6%9C%BA%E8%AE%B0/">双十一DIY装机记</a>
-    </h1>
-  
-
-
-        
-        <a href="/2019/11/11/%E5%8F%8C%E5%8D%81%E4%B8%80DIY%E8%A3%85%E6%9C%BA%E8%AE%B0/" class="archive-article-date">
-  	<time datetime="2019-11-11T15:33:17.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-11</time>
-</a>
-
-        
-      </header>
-	  <!--div align="center" class="post-count">
-		字数：1k字 | 预计阅读时长：3分钟
-	  </div-->
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h4 id="一、装机背景"><a href="#一、装机背景" class="headerlink" title="一、装机背景"></a>一、装机背景</h4><p>&emsp;&emsp;最近发现古董笔记本太卡了，用了近6年，尽管自己不打游戏，但是业余时间写写代码，同时开两个编辑器，打开个大一点的软件都卡的不行，据说更换固态硬盘可以提高速度，于是乎，京东买了一个500G三星的固态硬盘，又买了点散热硅脂，更换了固态、重装系统，给电脑清清灰。电脑确实快了那么一些，过了几天还是觉得卡，于是萌生了换一台电脑的想法，笔记本还是台式机，鉴于自己出差不是很多，还是配置台式吧，毕竟同价位的台式机比笔记本性能好不少，缺点就是占位置，不便携。</p>
-<p><img src="/imgs/diy/diy1.jpg" alt="diy1"><br>(拆笔记本更换固态)</p>
-<h4 id="二、学习了解相关知识"><a href="#二、学习了解相关知识" class="headerlink" title="二、学习了解相关知识"></a>二、学习了解相关知识</h4>
-        
-          <a class="article-more-a" href="/2019/11/11/%E5%8F%8C%E5%8D%81%E4%B8%80DIY%E8%A3%85%E6%9C%BA%E8%AE%B0/#more">more >></a>
-        
-      
-
-      
-      <p style="font-size: 14px;color:#999;margin: 0;">
-        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2019/11/11/%E5%8F%8C%E5%8D%81%E4%B8%80DIY%E8%A3%85%E6%9C%BA%E8%AE%B0/" class="pageViews">0</span>次
-      </p>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">DIY装机</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/11/11/%E5%8F%8C%E5%8D%81%E4%B8%80DIY%E8%A3%85%E6%9C%BA%E8%AE%B0/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-页面体验优化-图片预览以及上传显示进度" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/10/27/%E9%A1%B5%E9%9D%A2%E4%BD%93%E9%AA%8C%E4%BC%98%E5%8C%96-%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88%E4%BB%A5%E5%8F%8A%E4%B8%8A%E4%BC%A0%E6%98%BE%E7%A4%BA%E8%BF%9B%E5%BA%A6/">页面体验优化-图片预览以及上传显示进度</a>
-    </h1>
-  
-
-
-        
-        <a href="/2019/10/27/%E9%A1%B5%E9%9D%A2%E4%BD%93%E9%AA%8C%E4%BC%98%E5%8C%96-%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88%E4%BB%A5%E5%8F%8A%E4%B8%8A%E4%BC%A0%E6%98%BE%E7%A4%BA%E8%BF%9B%E5%BA%A6/" class="archive-article-date">
-  	<time datetime="2019-10-27T06:17:55.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-27</time>
-</a>
-
-        
-      </header>
-	  <!--div align="center" class="post-count">
-		字数：1.8k字 | 预计阅读时长：7分钟
-	  </div-->
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>&emsp;&emsp;在平时项目开发中，我们经常会对文件做一些上传操作，不仅仅要实现基本需求，也要兼顾用户体验，根据自己在工作中遇到的问题谈谈对图片上传的预览以及上传进度的优化。</p>
-<h4 id="1-搭建项目"><a href="#1-搭建项目" class="headerlink" title="1.搭建项目"></a>1.搭建项目</h4><p>基于Vue.js+axios搭建的项目，新建一个Index.Vue项目如下，基本结构可以先可以选择文件，预览文件。</p>
-        
-          <a class="article-more-a" href="/2019/10/27/%E9%A1%B5%E9%9D%A2%E4%BD%93%E9%AA%8C%E4%BC%98%E5%8C%96-%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88%E4%BB%A5%E5%8F%8A%E4%B8%8A%E4%BC%A0%E6%98%BE%E7%A4%BA%E8%BF%9B%E5%BA%A6/#more">more >></a>
-        
-      
-
-      
-      <p style="font-size: 14px;color:#999;margin: 0;">
-        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2019/10/27/%E9%A1%B5%E9%9D%A2%E4%BD%93%E9%AA%8C%E4%BC%98%E5%8C%96-%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88%E4%BB%A5%E5%8F%8A%E4%B8%8A%E4%BC%A0%E6%98%BE%E7%A4%BA%E8%BF%9B%E5%BA%A6/" class="pageViews">0</span>次
-      </p>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">HTML</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Vue</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/10/27/%E9%A1%B5%E9%9D%A2%E4%BD%93%E9%AA%8C%E4%BC%98%E5%8C%96-%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88%E4%BB%A5%E5%8F%8A%E4%B8%8A%E4%BC%A0%E6%98%BE%E7%A4%BA%E8%BF%9B%E5%BA%A6/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
   
     <nav id="page-nav">
       <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/">Next</a>
@@ -1059,11 +1086,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">React</a>
+                <a href="javascript:void(0)" class="js-tag color4">Vue</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Vue</a>
+                <a href="javascript:void(0)" class="js-tag color1">React</a>
               </li>
              
               <li class="article-tag-list-item">
