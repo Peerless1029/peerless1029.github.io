@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="//peerless1029.github.io">
-  <title>《JS高程》-教你如何写出可维护的代码 | Peerless的博客</title>
+  <title>重学前端-HTML篇 | Peerless的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="1、前言&amp;emsp;&amp;emsp;在平时工作开发中，大部分开发人员都花费大量的时间在维护其他人员的代码。很难从头开始开发新代码，很多情况下都是以他人成果为基础的，或者新增修改需求，自己写的代码也会被其他开发人员调用，所以写好一份高质量可维护的代码就显得十分重要。 2、什么是可维护代码可维护代码需要遵循以下几个特点。 1.可理解性-其他人可以接手代码并理解它的意图和一般途径。2.直观性-代码中的东西一">
-<meta name="keywords" content="JavaScript,HTML">
+  <meta name="description" content="1. 说说HTML5在标签、属性、存储、API上的新特性2. doctype的作用是什么？声明文档类型，告知浏览器用什么文档标准解析这个文档： 3. 几种前端储存以及它们之间的区别cookies： HTML5之前本地储存的主要方式，大小只有4k，HTTP请求头会自动带上cookie，兼容性好 localStorage：HTML5新特性，持久性存储，即使页面关闭也不会被清除，以键值对的方式存储，大小">
+<meta name="keywords" content="HTML">
 <meta property="og:type" content="article">
-<meta property="og:title" content="《JS高程》-教你如何写出可维护的代码">
-<meta property="og:url" content="&#x2F;&#x2F;peerless1029.github.io&#x2F;2019&#x2F;11&#x2F;12&#x2F;JS%E9%AB%98%E7%A8%8B-%E6%95%99%E4%BD%A0%E5%86%99%E5%87%BA%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84%E4%BB%A3%E7%A0%81&#x2F;index.html">
+<meta property="og:title" content="重学前端-HTML篇">
+<meta property="og:url" content="&#x2F;&#x2F;peerless1029.github.io&#x2F;2020&#x2F;07&#x2F;08&#x2F;%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-HTML%E7%AF%87&#x2F;index.html">
 <meta property="og:site_name" content="Peerless的博客">
-<meta property="og:description" content="1、前言&amp;emsp;&amp;emsp;在平时工作开发中，大部分开发人员都花费大量的时间在维护其他人员的代码。很难从头开始开发新代码，很多情况下都是以他人成果为基础的，或者新增修改需求，自己写的代码也会被其他开发人员调用，所以写好一份高质量可维护的代码就显得十分重要。 2、什么是可维护代码可维护代码需要遵循以下几个特点。 1.可理解性-其他人可以接手代码并理解它的意图和一般途径。2.直观性-代码中的东西一">
+<meta property="og:description" content="1. 说说HTML5在标签、属性、存储、API上的新特性2. doctype的作用是什么？声明文档类型，告知浏览器用什么文档标准解析这个文档： 3. 几种前端储存以及它们之间的区别cookies： HTML5之前本地储存的主要方式，大小只有4k，HTTP请求头会自动带上cookie，兼容性好 localStorage：HTML5新特性，持久性存储，即使页面关闭也不会被清除，以键值对的方式存储，大小">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-11-13T00:30:18.165Z">
+<meta property="og:updated_time" content="2020-07-08T15:51:16.729Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Peerless的博客" type="application/atom+xml">
@@ -165,130 +165,49 @@
           </div>
           <div id="js-content" class="content-ll">
             
-<article id="post-JS高程-教你写出可维护的代码" class="article article-type-post " itemscope itemprop="blogPost">
+<article id="post-重学前端-HTML篇" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      《JS高程》-教你如何写出可维护的代码
+      重学前端-HTML篇
     </h1>
   
 
 
         
-        <a href="/2019/11/12/JS%E9%AB%98%E7%A8%8B-%E6%95%99%E4%BD%A0%E5%86%99%E5%87%BA%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84%E4%BB%A3%E7%A0%81/" class="archive-article-date">
-  	<time datetime="2019-11-12T15:17:30.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-12</time>
+        <a href="/2020/07/08/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-HTML%E7%AF%87/" class="archive-article-date">
+  	<time datetime="2020-07-07T16:20:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-08</time>
 </a>
 
         
       </header>
 	  <!--div align="center" class="post-count">
-		字数：3.1k字 | 预计阅读时长：11分钟
+		字数：625字 | 预计阅读时长：2分钟
 	  </div-->
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="1、前言"><a href="#1、前言" class="headerlink" title="1、前言"></a>1、前言</h3><p>&emsp;&emsp;在平时工作开发中，大部分开发人员都花费大量的时间在维护其他人员的代码。很难从头开始开发新代码，很多情况下都是以他人成果为基础的，或者新增修改需求，自己写的代码也会被其他开发人员调用，所以写好一份高质量可维护的代码就显得十分重要。</p>
-<h3 id="2、什么是可维护代码"><a href="#2、什么是可维护代码" class="headerlink" title="2、什么是可维护代码"></a>2、什么是可维护代码</h3><p>可维护代码需要遵循以下几个特点。</p>
-<p>1.<strong>可理解性</strong>-其他人可以接手代码并理解它的意图和一般途径。<br>2.<strong>直观性</strong>-代码中的东西一看就明白，不管其操作过程有多复杂。</p>
-<a id="more"></a>
-<p>3.<strong>可适应性</strong>-代码以一种数据变化不要求完全重写的方法撰写。<br>4.<strong>可扩展性</strong>-在代码架构上已考虑在未来允许对核心功能进行扩展。<br>5.<strong>可调试性</strong>-当有地方出错时，代码可以给你足够的信息快速直接找出问题的所在。</p>
-<h3 id="3、代码约定"><a href="#3、代码约定" class="headerlink" title="3、代码约定"></a>3、代码约定</h3><p>&emsp;&emsp;一种让代码变得可维护的简单途径是形成一套JavaScript代码的书写约定。由于JavaScript的可适应性，代码约定对它很重要。以下小节讨论代码约定的概论。</p>
-<p><strong>1.可读性</strong></p>
-<p>&emsp;&emsp;要让代码可维护，首先它必须可读。可读性的大部分内容和代码缩进相关的，代码整齐的缩进能一眼看出代码块是属于那个功能的，很常见的缩进大小为4个空格，现在大部分编辑器也支持一件格式化代码。可读性另一方面是注释，一般来说，有如下一些地方需要进行注释。</p>
-<ul>
-<li><strong>函数和方法</strong>-每个方法或注释都应该包含一个注释，用于描述其目的和用于完成任务所可能使用的算法。</li>
-<li><strong>大段代码</strong>-用于完成单个任务的多行代码应该在前面放一个描述任务的注释。</li>
-<li><strong>复杂的算法</strong>-使用独特的方式来解决某个问题加以注释来解释如何做的。</li>
-<li><strong>Hack</strong>-浏览器兼容性处理。</li>
-</ul>
-<p><strong>2.变量和函数的命名</strong></p>
-<p>&emsp;&emsp;话说在平时开发中最让人头疼的事莫过于命名了，无论是class的命名还是一些变量与方法的命名，所以有时候不得不靠一些翻译软件来帮助命名。适当给变量和函数起名字对于增加代码的可理解性和可维护性是非常重要的。命名规则一般如下：</p>
-<ul>
-<li>变量名应为名词如car或person。</li>
-<li>函数名应以动词开始，如getName()。</li>
-<li>返回布尔类型的函数一般用is开头，如isEnable()。</li>
-<li>常量应该用全部大写表示，如MAX_LENGTH。</li>
-</ul>
-<p><strong>3.变量类型透明</strong></p>
-<p>&emsp;&emsp;由于在JavaScript中变量是松散类型的，很容易忘记变量所包含的数据类型。合适的命名方式在一定程度上可以缓解这个问题，但是放到所有的情况下看还不够，还有三种变量数据来表示数据类型的方式。</p>
-<p>3.3.1、初始化</p>
-<p>&emsp;&emsp;当定义一个变量后，它应该被初始化一个值，来暗示它将来应该如何应用。</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 通过初始化指定变量类型</span></span><br><span class="line"><span class="keyword">var</span> found=<span class="literal">false</span>; <span class="comment">//布尔型</span></span><br><span class="line"><span class="keyword">var</span> count=<span class="number">-1</span>; <span class="comment">//数字型</span></span><br><span class="line"><span class="keyword">var</span> name=<span class="string">""</span>; <span class="comment">//字符串</span></span><br><span class="line"><span class="keyword">var</span> person=<span class="literal">null</span>; <span class="comment">//对象</span></span><br></pre></td></tr></table></figure>
+        <h4 id="1-说说HTML5在标签、属性、存储、API上的新特性"><a href="#1-说说HTML5在标签、属性、存储、API上的新特性" class="headerlink" title="1. 说说HTML5在标签、属性、存储、API上的新特性"></a>1. 说说HTML5在标签、属性、存储、API上的新特性</h4><h4 id="2-doctype的作用是什么？"><a href="#2-doctype的作用是什么？" class="headerlink" title="2. doctype的作用是什么？"></a>2. doctype的作用是什么？</h4><p>声明文档类型，告知浏览器用什么文档标准解析这个文档：</p>
+<h4 id="3-几种前端储存以及它们之间的区别"><a href="#3-几种前端储存以及它们之间的区别" class="headerlink" title="3. 几种前端储存以及它们之间的区别"></a>3. 几种前端储存以及它们之间的区别</h4><p>cookies： HTML5之前本地储存的主要方式，大小只有4k，HTTP请求头会自动带上cookie，兼容性好</p>
+<p>localStorage：HTML5新特性，持久性存储，即使页面关闭也不会被清除，以键值对的方式存储，大小为5M</p>
+<p>sessionStorage：HTML5新特性，操作及大小同localStorage，和localStorage的区别在于sessionStorage在选项卡(页面)被关闭时即清除，且不同选项卡之间的sessionStorage不互通</p>
+<p><a href="http://www.ruanyifeng.com/blog/2018/07/indexeddb.html" target="_blank" rel="noopener">IndexedDB</a>： NoSQL型数据库，类比MongoDB，使用键值对进行储存，异步操作数据库，支持事务，储存空间可以在250MB以上，但是IndexedDB受同源策略限制</p>
+<p>Web SQL：是在浏览器上模拟的关系型数据库，开发者可以通过SQL语句来操作Web SQL，是HTML5以外一套独立的规范，兼容性差</p>
+<h4 id="4-href和src有什么区别"><a href="#4-href和src有什么区别" class="headerlink" title="4. href和src有什么区别"></a>4. href和src有什么区别</h4><p>href（hyperReference）即超文本引用：当浏览器遇到href时，会并行的地下载资源，不会阻塞页面解析，例如我们使用<link>引入CSS，浏览器会并行地下载CSS而不阻塞页面解析. 因此我们在引入CSS时建议使用<link>而不是@import<br><code>&lt;link href=&quot;style.css&quot; rel=&quot;stylesheet&quot; /&gt;</code><br>src（resource）即资源，当浏览器遇到src时，会暂停页面解析，直到该资源下载或执行完毕，这也是script标签之所以放底部的原因<br><code>&lt;script src=&quot;script.js&quot;&gt;&lt;/script&gt;</code></p>
+<h4 id="5-meta有哪些属性，作用是什么"><a href="#5-meta有哪些属性，作用是什么" class="headerlink" title="5. meta有哪些属性，作用是什么"></a>5. meta有哪些属性，作用是什么</h4><p>meta标签用于描述网页的元信息，如网站作者、描述、关键词，meta通过name=xxx和content=xxx的形式来定义信息，常用设置如下：</p>
+<p>charset：定义HTML文档的字符集<br><code>&lt;meta charset=&quot;UTF-8&quot; &gt;</code><br>http-equiv：可用于模拟http请求头，可设置过期时间、缓存、刷新<br><code>＜meta http-equiv=&quot;expires&quot; content=&quot;Wed, 20 Jun 2019 22:33:00 GMT&quot;＞</code><br>viewport：视口，用于控制页面宽高及缩放比例</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> </span></span><br><span class="line"><span class="tag">     <span class="attr">name</span>=<span class="string">"viewport"</span> </span></span><br><span class="line"><span class="tag">     <span class="attr">content</span>=<span class="string">"width=device-width, initial-scale=1, maximum-scale=1"</span></span></span><br><span class="line"><span class="tag"> &gt;</span></span><br></pre></td></tr></table></figure>
 
-<p>3.3.2、使用匈牙利标记法指定变量类型</p>
-<p>&emsp;&emsp;匈牙利标记法在变量名之前加上一个或多个字符来表示数据类型。JS中最传统的匈牙利标记法是用单个字符来表示基本类型：0-对象，s-字符串，i-整数，f-浮点数，b-布尔类型。</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 用于指定数据类型的匈牙利命名法</span></span><br><span class="line"><span class="keyword">var</span> bFound <span class="comment">//布尔型</span></span><br><span class="line"><span class="keyword">var</span> iCount; <span class="comment">//数字型</span></span><br><span class="line"><span class="keyword">var</span> sName; <span class="comment">//字符串</span></span><br><span class="line"><span class="keyword">var</span> oPerson; <span class="comment">//对象</span></span><br></pre></td></tr></table></figure>
-
-<p><em>匈牙利命名法好处是函数参数也一样可以使用，但它缺点是让代码在某种程度上那一阅读。</em></p>
-<p>3.3.3、使用类型注释</p>
-<p>&emsp;&emsp;最后一种指定变量类型的方式是使用类型注释。类型注释放在变量名右边，但是在初始化前面。</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 用于指定类型的类型注释</span></span><br><span class="line"><span class="keyword">var</span> found <span class="comment">/*Boolean*/</span> = <span class="literal">false</span>;</span><br><span class="line"><span class="keyword">var</span> count <span class="comment">/*int*/</span> = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">var</span> name <span class="comment">/*String*/</span> = <span class="string">"Tom"</span>;</span><br><span class="line"><span class="keyword">var</span> person <span class="comment">/*Object*/</span> = <span class="literal">null</span>;</span><br></pre></td></tr></table></figure>
-<p><em>缺点：多行注释会与代码块冲突</em></p>
-<blockquote>
-<p>这三种常见的指定变量数据类型的方法，各有优势与劣势，根据自己项目加以评估再进行使用，也可以学习使用下TypeScript。</p>
-</blockquote>
-<h3 id="4、松散耦合"><a href="#4、松散耦合" class="headerlink" title="4、松散耦合"></a>4、松散耦合</h3><p>&emsp;&emsp;只要应用的某个部分过分依赖另一部分，代码就是偶尔过紧，难以维护。因为Web应用技术，有多种情况回使它变得耦合过紧，因此应该避免这些情况，并尽可能维护弱耦合代码。</p>
-<p><strong>1.解耦HTML/JavaScript</strong></p>
-<p>&emsp;&emsp;直接在HTML中的javaScript,使用包含内联代码的<code>&lt;script&gt;</code>元素或者是使用HTML属性来分配事件处理顺序，都是过于紧密耦合。<br>看看以下的代码</p>
-<figure class="highlight hsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="keyword">button</span> <span class="keyword">onclick</span>=<span class="string">"doSomeThing()"</span>&gt;Click Me&lt;/<span class="keyword">button</span>&gt;</span><br></pre></td></tr></table></figure>
-<p>&emsp;&emsp;在这个例子中，可能在doSomeThing()函数可用之前，就已经按下按钮，导致js错误，因为任何对按钮行为的更改要同时触及HTML和js,影响可维护性。</p>
-<p>同理js中包含大量的HTML</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 将HTML紧密耦合到js中</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">insertMessage</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  <span class="built_in">document</span>.getElementById(<span class="string">'container'</span>).innerHTML=<span class="string">'&lt;div&gt;Hello World&lt;/div&gt;'</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>这段代码的方法会动态生成一段代码块插入到页面中，当代码很多时候难以定位到错误。</p>
-<blockquote>
-<p>将 HTML 和 JavaScript 解耦可以在调试过程中节省时间，更加容易确定错误的来源，也减轻维护的难度：更改行为只需要在 JavaScript 文件中进行，而更改标记则只要在渲染文件中</p>
-</blockquote>
-<p><strong>2.解耦CSS/JavaScript</strong></p>
-<p>&emsp;&emsp;另一个 Web 层则是 CSS，它主要负责页面的显示。JavaScript 和 CSS 也是非常紧密相关的：他们都是 HTML 之上的层次，因此常常一起使用。但是，和 HTML 与 JavaScript 的情况一样，CSS 和 JavaScript也可能会过于紧密地耦合在一起。最常见的紧密耦合的例子是使用 JavaScript 来更改某些样式，如下所示：</p>
-<figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">//CSS 对 JavaScript 的紧密耦合</span><br><span class="line">element.<span class="built_in">style</span>.<span class="built_in">color</span> = <span class="string">"red"</span>; </span><br><span class="line">element.<span class="built_in">style</span>.backgroundColor = <span class="string">"blue"</span>;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>遇到这种直接修改css样式的，我们直接可以通过修改元素标签class类名来控制样式更方便。</p>
-</blockquote>
-<p><strong>3.解耦应用逻辑/事件处理程序</strong></p>
-<p>&emsp;&emsp;每个 Web 应用一般都有相当多的事件处理程序，监听着无数不同的事件。然而，很少有能仔细得将应用逻辑从事件处理程序中分离的。请看以下例子：</p>
-<figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> handle<span class="constructor">KeyPress(<span class="params">event</span>)</span> &#123;</span><br><span class="line">        event = <span class="module-access"><span class="module"><span class="identifier">EventUtil</span>.</span></span>get<span class="constructor">Event(<span class="params">event</span>)</span>;</span><br><span class="line">        <span class="keyword">if</span> (event.keyCode<span class="operator"> == </span><span class="number">13</span>) &#123;</span><br><span class="line">            var target = <span class="module-access"><span class="module"><span class="identifier">EventUtil</span>.</span></span>get<span class="constructor">Target(<span class="params">event</span>)</span>;</span><br><span class="line">            var value = <span class="number">5</span><span class="operator"> * </span>parse<span class="constructor">Int(<span class="params">target</span>.<span class="params">value</span>)</span>;</span><br><span class="line">            <span class="keyword">if</span> (value &gt; <span class="number">10</span>) &#123;</span><br><span class="line">                document.get<span class="constructor">ElementById(<span class="string">"error-msg"</span>)</span>.style.display = <span class="string">"block"</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-<p>&emsp;&emsp;这个事件处理程序除了包含了应用逻辑，还进行了事件的处理。这种方式的问题有其双重性。首先，除了通过事件之外就再没有方法执行应用逻辑，这让调试变得困难。如果没有发生预想的结果怎么办？是不是表示事件处理程序没有被调用还是指应用逻辑失败？其次，如果一个后续的事件引发同样的应用逻辑，那就必须复制功能代码或者将代码抽取到一个单独的函数中。无论何种方式，都要作比实际所需更多的改动。</p>
-<p>&emsp;&emsp;较好的方法是将应用逻辑和事件处理程序相分离，这样两者分别处理各自的东西。一个事件处理程序应该从事件对象中提取相关信息，并将这些信息传送到处理应用逻辑的某个方法中。例如，前面的代码可以被重写为：</p>
-<figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> validate<span class="constructor">Value(<span class="params">value</span>)</span> &#123;</span><br><span class="line">       value = <span class="number">5</span><span class="operator"> * </span>parse<span class="constructor">Int(<span class="params">value</span>)</span>;</span><br><span class="line">       <span class="keyword">if</span> (value &gt; <span class="number">10</span>) &#123;</span><br><span class="line">           document.get<span class="constructor">ElementById(<span class="string">"error-msg"</span>)</span>.style.display = <span class="string">"block"</span>;</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">   <span class="keyword">function</span> handle<span class="constructor">KeyPress(<span class="params">event</span>)</span> &#123;</span><br><span class="line">       event = <span class="module-access"><span class="module"><span class="identifier">EventUtil</span>.</span></span>get<span class="constructor">Event(<span class="params">event</span>)</span>;</span><br><span class="line">       <span class="keyword">if</span> (event.keyCode<span class="operator"> == </span><span class="number">13</span>) &#123;</span><br><span class="line">           var target = <span class="module-access"><span class="module"><span class="identifier">EventUtil</span>.</span></span>get<span class="constructor">Target(<span class="params">event</span>)</span>;</span><br><span class="line">           validate<span class="constructor">Value(<span class="params">target</span>.<span class="params">value</span>)</span>;</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
-<p>应用和业务逻辑之间松散耦合的几条原则：</p>
-<ul>
-<li>勿将 event 对象传给其他方法；只传来自 event 对象中所需的数据；</li>
-<li>任何可以在应用层面的动作都应该可以在不执行任何事件处理程序的情况下进行；</li>
-<li>任何事件处理程序都应该处理事件，然后将处理转交给应用逻辑。</li>
-</ul>
-<p>牢记这几条可以在任何代码中都获得极大的可维护性的改进，并且为进一步的测试和开发制造了很多可能。</p>
-<h3 id="5、编程实践"><a href="#5、编程实践" class="headerlink" title="5、编程实践"></a>5、编程实践</h3><p>&emsp;&emsp;书写可维护的 JavaScript 并不仅仅是关于如何格式化代码；它还关系到代码做什么的问题。在企业环境中创建的 Web 应用往往同时由大量人员一同创作。这种情况下的目标是确保每个人所使用的浏览器环境都有一致和不变的规则。因此，最好坚持以下一些编程实践。</p>
-<p><strong>1.尊重对象所有权</strong></p>
-<p>&emsp;&emsp;JavaScript 的动态性质使得几乎任何东西在任何时间都可以修改。也许在企业环境中最重要的编程实践就是尊重对象所有权，它的意思是你不能修改不属于你的对象。简单地说，如果你不负责创建或维护某个对象、它的对象或者它的方法，那么你就不能对它们进行修改。更具体地说：</p>
-<ul>
-<li>不要为实例或原型添加属性；</li>
-<li>不要为实例或原型添加方法；</li>
-<li>不要重定义已存在的方法。</li>
-</ul>
-<p><strong>2.避免全局变量</strong></p>
-<p>&emsp;&emsp;与尊重对象所有权密切相关的是尽可能避免全局变量和函数。这也关系到创建一个脚本执行的一致的和可维护的环境。最多创建一个全局变量，让其他对象和函数存在其中。请看以下例子：</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 两个全局量——避免！！</span></span><br><span class="line"><span class="keyword">var</span> name = <span class="string">"Nicholas"</span>; </span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">sayName</span><span class="params">()</span></span>&#123; </span><br><span class="line"> alert(name); </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>这段代码包含了两个全局量：变量 name 和函数 sayName()。其实可以创建一个包含两者的对象，如下例所示：</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 一个全局量——推荐</span></span><br><span class="line"><span class="keyword">var</span> MyApplication = &#123; </span><br><span class="line"> name: <span class="string">"Nicholas"</span>, </span><br><span class="line"> sayName: <span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123; </span><br><span class="line"> alert(<span class="keyword">this</span>.name); </span><br><span class="line"> &#125; </span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<p>&emsp;&emsp;这段重写的代码引入了一个单一的全局对象 MyApplication，name 和 sayName()都附加到其上。这样做消除了一些存在于前一段代码中的一些问题。首先，变量 name 覆盖了 window.name 属性，可能会与其他功能产生冲突；其次，它有助消除功能作用域之间的混淆。调用 MyApplication.sayName()在逻辑上暗示了代码的任何问题都可以通过检查定义 MyApplication 的代码来确定。</p>
-<p><strong>3.使用常量</strong></p>
-<p>以下一些类型的值适合使用常量来定义：</p>
-<ul>
-<li>重复值——任何在多处用到的值都应抽取为一个常量。这就限制了当一个值变了而另一个没变的时候会造成的错误。这也包含了 CSS 类名。</li>
-<li>用户界面字符串 —— 任何用于显示给用户的字符串，都应被抽取出来以方便国际化。</li>
-<li>URLs ——在 Web 应用中，资源位置很容易变更，所以推荐用一个公共地方存放所有的URL。 </li>
-<li>任意可能会更改的值 —— 每当你在用到字面量值的时候，你都要问一下自己这个值在未来是不是会变化。如果答案是“是”，那么这个值就应该被提取出来作为一个常量。</li>
-</ul>
-<h4 id="以上是阅读《JS高程》一些笔记，同时也反思一下自己在平时项目开发中存在的问题。看来提高一些基本编码小技巧，编写出可维护的代码还是很有必要的。"><a href="#以上是阅读《JS高程》一些笔记，同时也反思一下自己在平时项目开发中存在的问题。看来提高一些基本编码小技巧，编写出可维护的代码还是很有必要的。" class="headerlink" title="以上是阅读《JS高程》一些笔记，同时也反思一下自己在平时项目开发中存在的问题。看来提高一些基本编码小技巧，编写出可维护的代码还是很有必要的。"></a>以上是阅读《JS高程》一些笔记，同时也反思一下自己在平时项目开发中存在的问题。看来提高一些基本编码小技巧，编写出可维护的代码还是很有必要的。</h4><p>参考资料：<br>《JavaScript高级教程》</p>
+<h4 id="6-viewport有哪些参数，作用是什么"><a href="#6-viewport有哪些参数，作用是什么" class="headerlink" title="6. viewport有哪些参数，作用是什么"></a>6. viewport有哪些参数，作用是什么</h4><p>width/height，宽高，默认宽度980px<br>initial-scale，初始缩放比例，1~10<br>maximum-scale/minimum-scale，允许用户缩放的最大/小比例<br>user-scalable，用户是否可以缩放 (yes/no)</p>
 
       
 
       
       <p style="font-size: 14px;color:#999;margin: 0;">
-        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2019/11/12/JS%E9%AB%98%E7%A8%8B-%E6%95%99%E4%BD%A0%E5%86%99%E5%87%BA%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84%E4%BB%A3%E7%A0%81/" class="pageViews">0</span>次
+        <!--i class="icon-smile icon"></i--> 阅读数:<span id="/2020/07/08/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-HTML%E7%AF%87/" class="pageViews">0</span>次
       </p>
       
 
@@ -327,10 +246,6 @@
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
-        		</li>
-      		 
         		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">HTML</a>
         		</li>
@@ -388,7 +303,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://peerless1029.github.io/2019/11/12/JS%E9%AB%98%E7%A8%8B-%E6%95%99%E4%BD%A0%E5%86%99%E5%87%BA%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84%E4%BB%A3%E7%A0%81/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://peerless1029.github.io/2020/07/08/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-HTML%E7%AF%87/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -403,18 +318,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/11/20/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JS%E7%B3%BB%E5%88%97%E3%80%901%E3%80%91-%20%E4%BB%80%E4%B9%88%E6%98%AF%E4%BD%9C%E7%94%A8%E5%9F%9F/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          你不知道的JS系列【1】- 什么是作用域
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/11/11/%E5%8F%8C%E5%8D%81%E4%B8%80DIY%E8%A3%85%E6%9C%BA%E8%AE%B0/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">双十一DIY装机记</div>
+    <a href="/2020/07/07/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-JavaScript%E7%AF%87/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">重学前端-JavaScript篇</div>
       <i class="icon-circle-right"></i>
     </a>
   

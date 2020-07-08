@@ -17,7 +17,7 @@
 <meta property="og:description" content="资料参考1.中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上) 1.盒模型页面渲染时，dom元素所采用的布局模型。可通过box-sizing进行设置。根据计算宽高的区域可分为：  content-box（W3C标准盒模型） border-box （IE盒模型） padding-box （FireFox曾经支持） margin-box (浏览器未实现)  2.BFC块级格式化上下文（blo">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="&#x2F;&#x2F;peerless1029.github.io&#x2F;2020&#x2F;07&#x2F;07&#x2F;%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-CSS%E7%AF%87&#x2F;imgs&#x2F;css&#x2F;01.png">
-<meta property="og:updated_time" content="2020-07-06T17:20:00.298Z">
+<meta property="og:updated_time" content="2020-07-08T17:35:21.728Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="&#x2F;&#x2F;peerless1029.github.io&#x2F;2020&#x2F;07&#x2F;07&#x2F;%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-CSS%E7%AF%87&#x2F;imgs&#x2F;css&#x2F;01.png">
   
@@ -187,7 +187,7 @@
         
       </header>
 	  <!--div align="center" class="post-count">
-		字数：490字 | 预计阅读时长：1分钟
+		字数：1.4k字 | 预计阅读时长：5分钟
 	  </div-->
     
     <div class="article-entry" itemprop="articleBody">
@@ -245,7 +245,26 @@
 </ul>
 </li>
 </ul>
-<h4 id="6-link与-import的区别"><a href="#6-link与-import的区别" class="headerlink" title="6.link与@import的区别"></a>6.link与@import的区别</h4>
+<h4 id="6-link与-import的区别"><a href="#6-link与-import的区别" class="headerlink" title="6.link与@import的区别"></a>6.link与@import的区别</h4><h4 id="7-CSS预处理器（Sass-less-Postcss）"><a href="#7-CSS预处理器（Sass-less-Postcss）" class="headerlink" title="7.CSS预处理器（Sass/less/Postcss）"></a>7.CSS预处理器（Sass/less/Postcss）</h4><h4 id="8-CSS动画动画"><a href="#8-CSS动画动画" class="headerlink" title="8.CSS动画动画"></a>8.CSS动画<a href="https://www.runoob.com/css3/css3-animations.html" target="_blank" rel="noopener">动画</a></h4><ul>
+<li><code>transition</code><br>CSS3 过渡是元素从一种样式逐渐改变为另一种的效果。<br>要实现这一点，必须规定两项内容：<br>指定要添加效果的CSS属性<br>指定效果的持续时间。</li>
+<li><code>animation/keyframes</code><br>当在 @keyframes 创建动画，把它绑定到一个选择器，否则动画不会有任何效果。<br>指定至少这两个CSS3的动画属性绑定向一个选择器：<br>规定动画的名称<br>规定动画的时长</li>
+</ul>
+<h4 id="9-为什么要清除浮动：清除浮动是为了解决子元素浮动而导致父元素高度塌陷的问题"><a href="#9-为什么要清除浮动：清除浮动是为了解决子元素浮动而导致父元素高度塌陷的问题" class="headerlink" title="9.为什么要清除浮动：清除浮动是为了解决子元素浮动而导致父元素高度塌陷的问题"></a>9.为什么要清除浮动：清除浮动是为了解决子元素浮动而导致父元素高度塌陷的问题</h4><p>1.添加新元素<br>2.使用伪元素<br>3.触发父元素BFC</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.parent</span> &#123;</span><br><span class="line">  <span class="attribute">overflow</span>: hidden;</span><br><span class="line">  <span class="comment">/* float: left; */</span></span><br><span class="line">  <span class="comment">/* position: absolute; */</span></span><br><span class="line">  <span class="comment">/* display: inline-block */</span></span><br><span class="line">  <span class="comment">/* 以上属性均可触发BFC */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="10-介绍一下flex布局"><a href="#10-介绍一下flex布局" class="headerlink" title="10.介绍一下flex布局"></a>10.介绍一下<a href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html" target="_blank" rel="noopener">flex布局</a></h4><p><a href="https://zhuanlan.zhihu.com/p/25303493" target="_blank" rel="noopener">30分钟学会flex布局</a><br><code>justify-content</code>定义了子元素在主轴(横轴)上的对齐方式</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.container</span> &#123;</span><br><span class="line">    <span class="attribute">justify-content</span>: center | flex-start | flex-end | space-between | space-around;</span><br><span class="line">    <span class="comment">/* 主轴对齐方式：居中 | 左对齐(默认值) | 右对齐 | 两端对齐(子元素间边距相等) | 周围对齐(每个子元素两侧margin相等） */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><code>align-items</code>定义了定义项目在交叉轴(竖轴)上对齐方式</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.container</span> &#123;</span><br><span class="line">    <span class="attribute">align-items</span>: center | flex-start | flex-end | baseline | stretch;</span><br><span class="line">    <span class="comment">/* 侧轴对齐方式：居中 | 上对齐 | 下对齐 | 项目的第一行文字的基线对齐 | 如果子元素未设置高度，将占满整个容器的高度（默认值） */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Flex 项目属性：<br>有六种属性可运用在 item 项目上：<br>order 定义项目在容器中的排列顺序，数值越小，排列越靠前，默认值为 0<br>flex-basis<br>flex-grow 定义项目的放大比例<br>flex-shrink 定义了项目的缩小比例<br>flex flex-grow, flex-shrink 和 flex-basis的简写<br>align-self 这个跟 align-items 属性时一样的，只不过 align-self 是对单个项目生效的，而 align-items 则是对容器下的所有项目生效的。</p>
+<h4 id="10-对于行高的理解"><a href="#10-对于行高的理解" class="headerlink" title="10.对于行高的理解"></a>10.<a href="https://www.zhangxinxu.com/wordpress/2009/11/css%E8%A1%8C%E9%AB%98line-height%E7%9A%84%E4%B8%80%E4%BA%9B%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E5%8F%8A%E5%BA%94%E7%94%A8/" target="_blank" rel="noopener">对于行高的理解</a></h4><h4 id="11-浏览器的回流与重绘-Reflow-amp-Repaint"><a href="#11-浏览器的回流与重绘-Reflow-amp-Repaint" class="headerlink" title="11.浏览器的回流与重绘 (Reflow &amp; Repaint)"></a>11.<a href="https://juejin.im/post/5a9923e9518825558251c96a" target="_blank" rel="noopener">浏览器的回流与重绘 (Reflow &amp; Repaint)</a></h4><p>当Render Tree中部分或全部元素的尺寸、结构、或某些属性发生改变时，浏览器重新渲染部分或全部文档的过程称为回流。</p>
+<p>当页面中元素样式的改变并不影响它在文档流中的位置时（例如：color、background-color、visibility等），浏览器会将新样式赋予给元素并重新绘制它，这个过程称为重绘。</p>
+<p>一句话：回流必将引起重绘，重绘不一定会引起回流。</p>
+<p>如何避免</p>
+<p><strong>CSS</strong><br>避免使用table布局。<br>尽可能在DOM树的最末端改变class。<br>避免设置多层内联样式。<br>将动画效果应用到position属性为absolute或fixed的元素上。<br>避免使用CSS表达式（例如：calc()）。</p>
+<p><strong>JavaScript</strong><br>避免频繁操作样式，最好一次性重写style属性，或者将样式列表定义为class并一次性更改class属性。<br>避免频繁操作DOM，创建一个documentFragment，在它上面应用所有DOM操作，最后再把它添加到文档中。<br>也可以先为元素设置display: none，操作结束后再把它显示出来。因为在display属性为none的元素上进行的DOM操作不会引发回流和重绘。<br>避免频繁读取会引发回流/重绘的属性，如果确实需要多次使用，就用一个变量缓存起来。<br>对具有复杂动画的元素使用绝对定位，使它脱离文档流，否则会引起父元素及后续元素频繁回流。</p>
+
       
 
       
@@ -371,8 +390,8 @@
     </a>
   
   
-    <a href="/2020/07/07/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF-HTML%E7%AF%87/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">重学前端-HTML篇</div>
+    <a href="/2020/07/05/%E5%85%A5%E6%89%8B%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E5%8F%B0%E7%9B%B8%E6%9C%BA%E4%BD%B3%E8%83%BDM50/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">入手人生第一台相机-佳能EOSM50</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -573,11 +592,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">WebRTC</a>
+                <a href="javascript:void(0)" class="js-tag color4">博客园</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">博客园</a>
+                <a href="javascript:void(0)" class="js-tag color4">Vue</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -585,7 +604,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Vue</a>
+                <a href="javascript:void(0)" class="js-tag color2">WebRTC</a>
               </li>
              
               <li class="article-tag-list-item">
